@@ -1,6 +1,8 @@
 from tkinter import *
 from PIL import Image, ImageTk
 import json
+from tkinter import messagebox 
+from cart import add_to_cart, cart_page   # import cart system
 
 # --- Load products by category ---
 def load_products(category):
@@ -9,9 +11,39 @@ def load_products(category):
         # filter items by category field
         return [item for item in data if item["category"] == category]
 
+<<<<<<< Updated upstream
 # --- Add to cart function ---
 def add_to_cart(product):
     print("Added to cart:", product["name"])
+=======
+# --- Binary Search with Partial Match ---
+def binary_search_partial(products, query):
+    products_sorted = sorted(products, key=lambda x: x["name"].lower())
+    query = query.lower()
+    results = []
+
+    low, high = 0, len(products_sorted) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        mid_name = products_sorted[mid]["name"].lower()
+
+        if query in mid_name:
+            left = mid
+            while left >= 0 and query in products_sorted[left]["name"].lower():
+                results.append(products_sorted[left])
+                left -= 1
+            right = mid + 1
+            while right < len(products_sorted) and query in products_sorted[right]["name"].lower():
+                results.append(products_sorted[right])
+                right += 1
+            break
+        elif mid_name < query:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return results
+>>>>>>> Stashed changes
 
 # --- Products Page ---
 def products_page(category):
@@ -25,9 +57,13 @@ def products_page(category):
     bg_label.image = bg
     bg_label.place(x=0, y=0)
 
-    # Title
-    title = Label(root, text=f"{category} Products", font=("Arial", 22, "bold"), bg="white")
-    title.pack(pady=10)
+    # Title + Cart Button
+    top_frame = Frame(root, bg="white")
+    top_frame.pack(pady=10, fill=X)
+
+    Label(top_frame, text=f"{category} Products", font=("Arial", 22, "bold"), bg="white").pack(side=LEFT, padx=20)
+    Button(top_frame, text="🛒 Cart", font=("Arial", 14), bg="orange", fg="white",
+           command=cart_page).pack(side=RIGHT, padx=20)
 
     # Search bar (UI only)
     search_frame = Frame(root, bg="white")
@@ -54,7 +90,49 @@ def products_page(category):
 
     canvas.configure(yscrollcommand=scrollbar.set)
 
+<<<<<<< Updated upstream
     # Load products
+=======
+    # --- Function to display products ---
+    def display_products(prod_list):
+        for widget in product_frame.winfo_children():
+            widget.destroy()
+
+        row, col = 0, 0
+        for product in prod_list:
+            card = Frame(product_frame, bg="white", bd=2, relief="groove", width=250, height=180)
+            card.grid(row=row, column=col, padx=20, pady=20)
+
+            Label(card, text=product["name"], font=("Arial", 14, "bold"), bg="white").pack(pady=5)
+            Label(card, text=f"Price: ${product['price']}", font=("Arial", 12), bg="white").pack()
+            Label(card, text=f"Stock: {product['stock']}", font=("Arial", 10), bg="white", fg="gray").pack()
+
+        
+
+            col += 1
+            if col == 5:
+                col = 0
+                row += 1
+            def handle_add_to_cart(p=product):
+                add_to_cart(p)   
+                messagebox.showinfo("Cart", f"✅ {p['name']} added to cart!") 
+            Button(card, text="Add to Cart", bg="#2196F3", fg="white",
+                   command=handle_add_to_cart).pack(pady=8)
+
+    # --- Search logic ---
+    def do_search():
+        query = search_entry.get().strip()
+        if query:
+            results = binary_search_partial(products, query)
+            display_products(results)
+        else:
+            display_products(products)
+
+    Button(search_frame, text="Search", font=("Arial", 12), bg="#4CAF50", fg="white",
+           command=do_search).pack(side=LEFT, padx=5)
+
+    # Load products initially
+>>>>>>> Stashed changes
     products = load_products(category)
 
     # Show products in cards
