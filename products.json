@@ -1,282 +1,1202 @@
 [
-  {
-    "id": 1,
-    "category": "HomeAppliances",
-    "name": "sdmfkmdkfm Oven",
-    "price": 199,
-    "brand": "Panasonic",
-    "year": 2023,
-    "description": "High-quality microwave with advanced features",
-    "stock": 8
-  },
-  {
-    "id": 2,
-    "category": "HomeAppliances",
-    "name": "Refrigerator",
-    "price": 999,
-    "brand": "Samsung",
-    "year": 2022,
-    "description": "Energy-efficient smart refrigerator",
-    "stock": 8
-  },
-  {
-    "id": 3,
-    "category": "HomeAppliances",
-    "name": "Washing Machine",
-    "price": 699,
-    "brand": "LG",
-    "year": 2021,
-    "description": "Front-loading washing machine with steam cleaning",
-    "stock": 12
-  },
-  {
-    "id": 4,
-    "category": "HomeAppliances",
-    "name": "Air Conditioner",
-    "price": 549,
-    "brand": "Carrier",
-    "year": 2023,
-    "description": "Split AC with inverter technology",
-    "stock": 10
-  },
-  {
-    "id": 5,
-    "category": "Electronics",
-    "name": "Camera",
-    "price": 599,
-    "brand": "Nikon",
-    "year": 2023,
-    "description": "DSLR camera with 24MP sensor",
-    "stock": 6
-  },
-  {
-    "id": 6,
-    "category": "Electronics",
-    "name": "Gaming Console",
-    "price": 399,
-    "brand": "Microsoft",
-    "year": 2021,
-    "description": "Xbox Series X gaming console",
-    "stock": 4
-  },
-  {
-    "id": 7,
-    "category": "Electronics",
-    "name": "Headphones",
-    "price": 99,
-    "brand": "Bose",
-    "year": 2023,
-    "description": "Wireless noise-cancelling headphones",
-    "stock": 20
-  },
-  {
-    "id": 8,
-    "category": "Electronics",
-    "name": "Laptop",
-    "price": 1499,
-    "brand": "Dell",
-    "year": 2021,
-    "description": "High-performance laptop for professionals",
-    "stock": 7
-  },
-  {
-    "id": 9,
-    "category": "Electronics",
-    "name": "Smart TV",
-    "price": 999,
-    "brand": "Sony",
-    "year": 2022,
-    "description": "4K Smart TV with HDR support",
-    "stock": 5
-  },
-  {
-    "id": 10,
-    "category": "Electronics",
-    "name": "Smartphone",
-    "price": 699,
-    "brand": "Apple",
-    "year": 2022,
-    "description": "iPhone with advanced camera system",
-    "stock": 12
-  },
-  {
-    "id": 11,
-    "category": "Fashion",
-    "name": "Dress",
-    "price": 79,
-    "brand": "Zara",
-    "year": 2023,
-    "description": "Elegant summer dress",
-    "stock": 25
-  },
-  {
-    "id": 12,
-    "category": "Fashion",
-    "name": "Handbag",
-    "price": 149,
-    "brand": "Michael Kors",
-    "year": 2021,
-    "description": "Luxury leather handbag",
-    "stock": 18
-  },
-  {
-    "id": 13,
-    "category": "Fashion",
-    "name": "Jeans",
-    "price": 59,
-    "brand": "Levi's",
-    "year": 2021,
-    "description": "Classic blue jeans",
-    "stock": 30
-  },
-  {
-    "id": 14,
-    "category": "Fashion",
-    "name": "Sneakers",
-    "price": 99,
-    "brand": "Adidas",
-    "year": 2022,
-    "description": "Comfortable running sneakers",
-    "stock": 22
-  },
-  {
-    "id": 15,
-    "category": "Fashion",
-    "name": "T-Shirt",
-    "price": 29,
-    "brand": "Nike",
-    "year": 2022,
-    "description": "Cotton sports t-shirt",
-    "stock": 40
-  },
-  {
-    "id": 16,
-    "category": "Fashion",
-    "name": "Watch",
-    "price": 199,
-    "brand": "Fossil",
-    "year": 2023,
-    "description": "Stylish analog watch",
-    "stock": 14
-  },
-  {
-    "id": 17,
-    "category": "Books",
-    "name": "1984",
-    "price": 8,
-    "brand": "George Orwell",
-    "year": 1949,
-    "description": "Classic dystopian novel",
-    "stock": 50
-  },
-  {
-    "id": 18,
-    "category": "Books",
-    "name": "Harry Potter",
-    "price": 15,
-    "brand": "J.K. Rowling",
-    "year": 1997,
-    "description": "Fantasy adventure series",
-    "stock": 35
-  },
-  {
-    "id": 19,
-    "category": "Books",
-    "name": "Pride and Prejudice",
-    "price": 9,
-    "brand": "Jane Austen",
-    "year": 1813,
-    "description": "Classic romance novel",
-    "stock": 28
-  },
-  {
-    "id": 20,
-    "category": "Books",
-    "name": "The Great Gatsby",
-    "price": 12,
-    "brand": "F. Scott Fitzgerald",
-    "year": 1925,
-    "description": "American classic literature",
-    "stock": 32
-  },
-  {
-    "id": 21,
-    "category": "Books",
-    "name": "To Kill a Mockingbird",
-    "price": 10,
-    "brand": "Harper Lee",
-    "year": 1960,
-    "description": "Pulitzer Prize winning novel",
-    "stock": 26
-  },
-  {
-    "id": 22,
-    "category": "Books",
-    "name": "The Catcher in the Rye",
-    "price": 11,
-    "brand": "J.D. Salinger",
-    "year": 1951,
-    "description": "Coming-of-age story",
-    "stock": 24
-  },
-  {
-    "id": 23,
-    "category": "Sports",
-    "name": "Athletic Shorts",
-    "price": 49,
-    "brand": "Puma",
-    "year": 2022,
-    "description": "Breathable sports shorts",
-    "stock": 35
-  },
-  {
-    "id": 24,
-    "category": "Sports",
-    "name": "Tennis Racket",
-    "price": 129,
-    "brand": "Wilson",
-    "year": 2023,
-    "description": "Professional tennis racket",
-    "stock": 16
-  },
-  {
-    "id": 25,
-    "category": "Sports",
-    "name": "Running Shoes",
-    "price": 79,
-    "brand": "Nike",
-    "year": 2022,
-    "description": "Lightweight running shoes",
-    "stock": 28
-  },
-  {
-    "id": 26,
-    "category": "Sports",
-    "name": "Sports Leggings",
-    "price": 39,
-    "brand": "Adidas",
-    "year": 2021,
-    "description": "Flexible workout leggings",
-    "stock": 42
-  },
-  {
-    "id": 27,
-    "category": "Sports",
-    "name": "Sweatbands",
-    "price": 12,
-    "brand": "New Balance",
-    "year": 2023,
-    "description": "Moisture-wicking sweatbands",
-    "stock": 60
-  },
-  {
-    "id": 28,
-    "category": "Sports",
-    "name": "Training T-Shirt",
-    "price": 35,
-    "brand": "Reebok",
-    "year": 2021,
-    "description": "Quick-dry training shirt",
-    "stock": 38
-  }
+    {
+        "id": 1,
+        "category": "Home",
+        "name": "Chair",
+        "price": 96.86,
+        "brand": "LG",
+        "year": 1991,
+        "description": "Limited edition item.",
+        "stock": 30
+    },
+    {
+        "id": 2,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 467.65,
+        "brand": "J.K. Rowling",
+        "year": 2016,
+        "description": "Comfortable and stylish.",
+        "stock": 78
+    },
+    {
+        "id": 3,
+        "category": "Clothing",
+        "name": "Shoes",
+        "price": 519.65,
+        "brand": "H&M",
+        "year": 2019,
+        "description": "Best-selling product.",
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "category": "Sports",
+        "name": "Football",
+        "price": 1690.88,
+        "brand": "Decathlon",
+        "year": 2018,
+        "description": "Customer favorite choice.",
+        "stock": 18
+    },
+    {
+        "id": 5,
+        "category": "Home",
+        "name": "Lamp",
+        "price": 1787.34,
+        "brand": "Panasonic",
+        "year": 1993,
+        "description": "Limited edition item.",
+        "stock": 19
+    },
+    {
+        "id": 6,
+        "category": "Books",
+        "name": "1984",
+        "price": 80.25,
+        "brand": "J.K. Rowling",
+        "year": 2010,
+        "description": "High quality and durable.",
+        "stock": 95
+    },
+    {
+        "id": 7,
+        "category": "Home",
+        "name": "Chair",
+        "price": 647.61,
+        "brand": "LG",
+        "year": 1992,
+        "description": "Best-selling product.",
+        "stock": 68
+    },
+    {
+        "id": 8,
+        "category": "Electronics",
+        "name": "Camera",
+        "price": 1484.45,
+        "brand": "Samsung",
+        "year": 2001,
+        "description": "High quality and durable.",
+        "stock": 81
+    },
+    {
+        "id": 9,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 287.31,
+        "brand": "Zara",
+        "year": 1991,
+        "description": "Customer favorite choice.",
+        "stock": 25
+    },
+    {
+        "id": 10,
+        "category": "Home",
+        "name": "Chair",
+        "price": 457.8,
+        "brand": "Ikea",
+        "year": 2006,
+        "description": "Limited edition item.",
+        "stock": 95
+    },
+    {
+        "id": 11,
+        "category": "Home",
+        "name": "Chair",
+        "price": 1511.97,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "Comfortable and stylish.",
+        "stock": 96
+    },
+    {
+        "id": 12,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 640.82,
+        "brand": "H&M",
+        "year": 2015,
+        "description": "Customer favorite choice.",
+        "stock": 92
+    },
+    {
+        "id": 13,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 197.33,
+        "brand": "George Orwell",
+        "year": 2005,
+        "description": "Customer favorite choice.",
+        "stock": 28
+    },
+    {
+        "id": 14,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 1434.87,
+        "brand": "Agatha Christie",
+        "year": 2003,
+        "description": "Limited edition item.",
+        "stock": 71
+    },
+    {
+        "id": 15,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 483.58,
+        "brand": "J.K. Rowling",
+        "year": 1992,
+        "description": "Customer favorite choice.",
+        "stock": 78
+    },
+    {
+        "id": 16,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 918.8,
+        "brand": "HP",
+        "year": 1996,
+        "description": "High quality and durable.",
+        "stock": 89
+    },
+    {
+        "id": 17,
+        "category": "Sports",
+        "name": "Gloves",
+        "price": 1182.31,
+        "brand": "Decathlon",
+        "year": 1990,
+        "description": "Best-selling product.",
+        "stock": 28
+    },
+    {
+        "id": 18,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 1379.06,
+        "brand": "J.K. Rowling",
+        "year": 1994,
+        "description": "Customer favorite choice.",
+        "stock": 70
+    },
+    {
+        "id": 19,
+        "category": "Home",
+        "name": "Lamp",
+        "price": 265.49,
+        "brand": "LG",
+        "year": 2015,
+        "description": "Comfortable and stylish.",
+        "stock": 73
+    },
+    {
+        "id": 20,
+        "category": "Electronics",
+        "name": "Tablet",
+        "price": 654.42,
+        "brand": "Sony",
+        "year": 2006,
+        "description": "Comfortable and stylish.",
+        "stock": 26
+    },
+    {
+        "id": 21,
+        "category": "Clothing",
+        "name": "Shoes",
+        "price": 681.21,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "Customer favorite choice.",
+        "stock": 1
+    },
+    {
+        "id": 22,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 382.83,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "Limited edition item.",
+        "stock": 18
+    },
+    {
+        "id": 23,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 1566.7,
+        "brand": "Decathlon",
+        "year": 1995,
+        "description": "Customer favorite choice.",
+        "stock": 25
+    },
+    {
+        "id": 24,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 1686.13,
+        "brand": "George Orwell",
+        "year": 2014,
+        "description": "Customer favorite choice.",
+        "stock": 31
+    },
+    {
+        "id": 25,
+        "category": "Home",
+        "name": "Bed",
+        "price": 1204.19,
+        "brand": "Ikea",
+        "year": 1996,
+        "description": "Customer favorite choice.",
+        "stock": 16
+    },
+    {
+        "id": 26,
+        "category": "Clothing",
+        "name": "Watch",
+        "price": 1307.03,
+        "brand": "H&M",
+        "year": 2020,
+        "description": "High quality and durable.",
+        "stock": 20
+    },
+    {
+        "id": 27,
+        "category": "Electronics",
+        "name": "Headphones",
+        "price": 509.06,
+        "brand": "Dell",
+        "year": 1993,
+        "description": "Comfortable and stylish.",
+        "stock": 92
+    },
+    {
+        "id": 28,
+        "category": "Sports",
+        "name": "Football",
+        "price": 1571.37,
+        "brand": "Decathlon",
+        "year": 2001,
+        "description": "High quality and durable.",
+        "stock": 26
+    },
+    {
+        "id": 29,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 720.93,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "Comfortable and stylish.",
+        "stock": 43
+    },
+    {
+        "id": 30,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 1897.46,
+        "brand": "Apple",
+        "year": 2007,
+        "description": "Comfortable and stylish.",
+        "stock": 51
+    },
+    {
+        "id": 31,
+        "category": "Sports",
+        "name": "Gloves",
+        "price": 540.99,
+        "brand": "Wilson",
+        "year": 2015,
+        "description": "High quality and durable.",
+        "stock": 85
+    },
+    {
+        "id": 32,
+        "category": "Clothing",
+        "name": "Shoes",
+        "price": 1790.46,
+        "brand": "H&M",
+        "year": 2004,
+        "description": "Limited edition item.",
+        "stock": 13
+    },
+    {
+        "id": 33,
+        "category": "Home",
+        "name": "Chair",
+        "price": 802.61,
+        "brand": "Ikea",
+        "year": 1994,
+        "description": "High quality and durable.",
+        "stock": 79
+    },
+    {
+        "id": 34,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 1653.1,
+        "brand": "H&M",
+        "year": 2007,
+        "description": "Customer favorite choice.",
+        "stock": 39
+    },
+    {
+        "id": 35,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 1892.57,
+        "brand": "Nike",
+        "year": 2008,
+        "description": "Limited edition item.",
+        "stock": 42
+    },
+    {
+        "id": 36,
+        "category": "Home",
+        "name": "Bed",
+        "price": 74.89,
+        "brand": "Panasonic",
+        "year": 2013,
+        "description": "Comfortable and stylish.",
+        "stock": 47
+    },
+    {
+        "id": 37,
+        "category": "Home",
+        "name": "Bed",
+        "price": 1745.28,
+        "brand": "Ikea",
+        "year": 1999,
+        "description": "Limited edition item.",
+        "stock": 15
+    },
+    {
+        "id": 38,
+        "category": "Books",
+        "name": "1984",
+        "price": 1749.0,
+        "brand": "J.K. Rowling",
+        "year": 2007,
+        "description": "Best-selling product.",
+        "stock": 56
+    },
+    {
+        "id": 39,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 308.44,
+        "brand": "George Orwell",
+        "year": 2019,
+        "description": "High quality and durable.",
+        "stock": 27
+    },
+    {
+        "id": 40,
+        "category": "Home",
+        "name": "Bed",
+        "price": 479.55,
+        "brand": "Philips",
+        "year": 1995,
+        "description": "Comfortable and stylish.",
+        "stock": 39
+    },
+    {
+        "id": 41,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 37.5,
+        "brand": "Agatha Christie",
+        "year": 1994,
+        "description": "Limited edition item.",
+        "stock": 97
+    },
+    {
+        "id": 42,
+        "category": "Sports",
+        "name": "Tennis Racket",
+        "price": 294.72,
+        "brand": "Decathlon",
+        "year": 2019,
+        "description": "Best-selling product.",
+        "stock": 17
+    },
+    {
+        "id": 43,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 214.02,
+        "brand": "Nike",
+        "year": 2018,
+        "description": "High quality and durable.",
+        "stock": 50
+    },
+    {
+        "id": 44,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 88.15,
+        "brand": "Puma",
+        "year": 2015,
+        "description": "Best-selling product.",
+        "stock": 33
+    },
+    {
+        "id": 45,
+        "category": "Sports",
+        "name": "Tennis Racket",
+        "price": 221.56,
+        "brand": "Yonex",
+        "year": 2019,
+        "description": "Comfortable and stylish.",
+        "stock": 26
+    },
+    {
+        "id": 46,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 1951.45,
+        "brand": "J.K. Rowling",
+        "year": 1993,
+        "description": "High quality and durable.",
+        "stock": 6
+    },
+    {
+        "id": 47,
+        "category": "Home",
+        "name": "Bed",
+        "price": 1167.91,
+        "brand": "Philips",
+        "year": 2018,
+        "description": "Limited edition item.",
+        "stock": 46
+    },
+    {
+        "id": 48,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 1881.12,
+        "brand": "Adidas",
+        "year": 2005,
+        "description": "Customer favorite choice.",
+        "stock": 10
+    },
+    {
+        "id": 49,
+        "category": "Sports",
+        "name": "Tennis Racket",
+        "price": 845.16,
+        "brand": "Wilson",
+        "year": 1990,
+        "description": "High quality and durable.",
+        "stock": 72
+    },
+    {
+        "id": 50,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 163.47,
+        "brand": "Sony",
+        "year": 1999,
+        "description": "Best-selling product.",
+        "stock": 91
+    },
+    {
+        "id": 51,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 1677.77,
+        "brand": "Agatha Christie",
+        "year": 2000,
+        "description": "Comfortable and stylish.",
+        "stock": 91
+    },
+    {
+        "id": 52,
+        "category": "Home",
+        "name": "Table",
+        "price": 1502.64,
+        "brand": "Philips",
+        "year": 1994,
+        "description": "Limited edition item.",
+        "stock": 80
+    },
+    {
+        "id": 53,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 937.27,
+        "brand": "Yonex",
+        "year": 1996,
+        "description": "High quality and durable.",
+        "stock": 71
+    },
+    {
+        "id": 54,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 1930.89,
+        "brand": "Nike",
+        "year": 2017,
+        "description": "Limited edition item.",
+        "stock": 90
+    },
+    {
+        "id": 55,
+        "category": "Sports",
+        "name": "Bicycle",
+        "price": 7.8,
+        "brand": "Yonex",
+        "year": 2004,
+        "description": "Best-selling product.",
+        "stock": 97
+    },
+    {
+        "id": 56,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 905.61,
+        "brand": "Spalding",
+        "year": 2016,
+        "description": "Limited edition item.",
+        "stock": 34
+    },
+    {
+        "id": 57,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 1792.09,
+        "brand": "Apple",
+        "year": 2016,
+        "description": "Comfortable and stylish.",
+        "stock": 54
+    },
+    {
+        "id": 58,
+        "category": "Sports",
+        "name": "Bicycle",
+        "price": 1112.82,
+        "brand": "Decathlon",
+        "year": 2016,
+        "description": "Best-selling product.",
+        "stock": 7
+    },
+    {
+        "id": 59,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 1479.23,
+        "brand": "J.D. Salinger",
+        "year": 2010,
+        "description": "Best-selling product.",
+        "stock": 73
+    },
+    {
+        "id": 60,
+        "category": "Electronics",
+        "name": "Tablet",
+        "price": 1153.83,
+        "brand": "Dell",
+        "year": 1997,
+        "description": "Customer favorite choice.",
+        "stock": 50
+    },
+    {
+        "id": 61,
+        "category": "Electronics",
+        "name": "Laptop",
+        "price": 361.32,
+        "brand": "Sony",
+        "year": 1999,
+        "description": "Best-selling product.",
+        "stock": 11
+    },
+    {
+        "id": 62,
+        "category": "Clothing",
+        "name": "Watch",
+        "price": 937.84,
+        "brand": "H&M",
+        "year": 2020,
+        "description": "High quality and durable.",
+        "stock": 38
+    },
+    {
+        "id": 63,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "price": 707.27,
+        "brand": "HP",
+        "year": 1994,
+        "description": "Customer favorite choice.",
+        "stock": 29
+    },
+    {
+        "id": 64,
+        "category": "Books",
+        "name": "1984",
+        "price": 437.42,
+        "brand": "George Orwell",
+        "year": 2013,
+        "description": "Limited edition item.",
+        "stock": 18
+    },
+    {
+        "id": 65,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 822.34,
+        "brand": "J.K. Rowling",
+        "year": 2001,
+        "description": "Comfortable and stylish.",
+        "stock": 92
+    },
+    {
+        "id": 66,
+        "category": "Clothing",
+        "name": "Watch",
+        "price": 1006.65,
+        "brand": "Nike",
+        "year": 2012,
+        "description": "Customer favorite choice.",
+        "stock": 44
+    },
+    {
+        "id": 67,
+        "category": "Books",
+        "name": "1984",
+        "price": 1027.36,
+        "brand": "Agatha Christie",
+        "year": 2021,
+        "description": "Comfortable and stylish.",
+        "stock": 59
+    },
+    {
+        "id": 68,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 186.56,
+        "brand": "George Orwell",
+        "year": 1993,
+        "description": "Comfortable and stylish.",
+        "stock": 24
+    },
+    {
+        "id": 69,
+        "category": "Electronics",
+        "name": "Laptop",
+        "price": 545.38,
+        "brand": "Dell",
+        "year": 2011,
+        "description": "High quality and durable.",
+        "stock": 64
+    },
+    {
+        "id": 70,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 1429.22,
+        "brand": "Zara",
+        "year": 1992,
+        "description": "Customer favorite choice.",
+        "stock": 52
+    },
+    {
+        "id": 71,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 663.45,
+        "brand": "Puma",
+        "year": 2008,
+        "description": "Limited edition item.",
+        "stock": 29
+    },
+    {
+        "id": 72,
+        "category": "Home",
+        "name": "Chair",
+        "price": 1635.73,
+        "brand": "Philips",
+        "year": 2000,
+        "description": "Customer favorite choice.",
+        "stock": 17
+    },
+    {
+        "id": 73,
+        "category": "Home",
+        "name": "Table",
+        "price": 1676.65,
+        "brand": "Philips",
+        "year": 2022,
+        "description": "Limited edition item.",
+        "stock": 53
+    },
+    {
+        "id": 74,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 639.86,
+        "brand": "J.K. Rowling",
+        "year": 2000,
+        "description": "Comfortable and stylish.",
+        "stock": 25
+    },
+    {
+        "id": 75,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 1722.21,
+        "brand": "J.D. Salinger",
+        "year": 2021,
+        "description": "Best-selling product.",
+        "stock": 79
+    },
+    {
+        "id": 76,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 270.95,
+        "brand": "Spalding",
+        "year": 2009,
+        "description": "Best-selling product.",
+        "stock": 91
+    },
+    {
+        "id": 77,
+        "category": "Electronics",
+        "name": "Headphones",
+        "price": 1210.56,
+        "brand": "Sony",
+        "year": 2002,
+        "description": "Best-selling product.",
+        "stock": 2
+    },
+    {
+        "id": 78,
+        "category": "Home",
+        "name": "Chair",
+        "price": 1055.3,
+        "brand": "Philips",
+        "year": 2006,
+        "description": "Comfortable and stylish.",
+        "stock": 10
+    },
+    {
+        "id": 79,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 372.58,
+        "brand": "Puma",
+        "year": 2007,
+        "description": "Limited edition item.",
+        "stock": 67
+    },
+    {
+        "id": 80,
+        "category": "Home",
+        "name": "Chair",
+        "price": 1163.72,
+        "brand": "Panasonic",
+        "year": 2015,
+        "description": "High quality and durable.",
+        "stock": 68
+    },
+    {
+        "id": 81,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 1147.53,
+        "brand": "Nike",
+        "year": 2003,
+        "description": "Limited edition item.",
+        "stock": 71
+    },
+    {
+        "id": 82,
+        "category": "Books",
+        "name": "1984",
+        "price": 348.15,
+        "brand": "George Orwell",
+        "year": 2020,
+        "description": "Comfortable and stylish.",
+        "stock": 38
+    },
+    {
+        "id": 83,
+        "category": "Sports",
+        "name": "Gloves",
+        "price": 585.01,
+        "brand": "Decathlon",
+        "year": 2021,
+        "description": "Best-selling product.",
+        "stock": 60
+    },
+    {
+        "id": 84,
+        "category": "Sports",
+        "name": "Bicycle",
+        "price": 184.46,
+        "brand": "Yonex",
+        "year": 1994,
+        "description": "Limited edition item.",
+        "stock": 100
+    },
+    {
+        "id": 85,
+        "category": "Home",
+        "name": "Table",
+        "price": 550.6,
+        "brand": "Philips",
+        "year": 2004,
+        "description": "Limited edition item.",
+        "stock": 68
+    },
+    {
+        "id": 86,
+        "category": "Electronics",
+        "name": "Headphones",
+        "price": 1979.49,
+        "brand": "Apple",
+        "year": 2004,
+        "description": "Comfortable and stylish.",
+        "stock": 93
+    },
+    {
+        "id": 87,
+        "category": "Sports",
+        "name": "Bicycle",
+        "price": 1353.58,
+        "brand": "Wilson",
+        "year": 2005,
+        "description": "Best-selling product.",
+        "stock": 71
+    },
+    {
+        "id": 88,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 990.02,
+        "brand": "Agatha Christie",
+        "year": 1993,
+        "description": "High quality and durable.",
+        "stock": 98
+    },
+    {
+        "id": 89,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 455.04,
+        "brand": "Zara",
+        "year": 1997,
+        "description": "Limited edition item.",
+        "stock": 34
+    },
+    {
+        "id": 90,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 128.5,
+        "brand": "George Orwell",
+        "year": 2007,
+        "description": "Customer favorite choice.",
+        "stock": 83
+    },
+    {
+        "id": 91,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 631.34,
+        "brand": "Puma",
+        "year": 2006,
+        "description": "Comfortable and stylish.",
+        "stock": 54
+    },
+    {
+        "id": 92,
+        "category": "Home",
+        "name": "Lamp",
+        "price": 336.08,
+        "brand": "Ikea",
+        "year": 2003,
+        "description": "Customer favorite choice.",
+        "stock": 15
+    },
+    {
+        "id": 93,
+        "category": "Sports",
+        "name": "Bicycle",
+        "price": 1830.8,
+        "brand": "Spalding",
+        "year": 2022,
+        "description": "High quality and durable.",
+        "stock": 32
+    },
+    {
+        "id": 94,
+        "category": "Electronics",
+        "name": "Headphones",
+        "price": 1292.49,
+        "brand": "Dell",
+        "year": 2004,
+        "description": "Comfortable and stylish.",
+        "stock": 17
+    },
+    {
+        "id": 95,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 737.97,
+        "brand": "Adidas",
+        "year": 2010,
+        "description": "Customer favorite choice.",
+        "stock": 96
+    },
+    {
+        "id": 96,
+        "category": "Electronics",
+        "name": "Camera",
+        "price": 1277.19,
+        "brand": "Sony",
+        "year": 2006,
+        "description": "Comfortable and stylish.",
+        "stock": 74
+    },
+    {
+        "id": 97,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 1745.75,
+        "brand": "Nike",
+        "year": 2012,
+        "description": "Customer favorite choice.",
+        "stock": 35
+    },
+    {
+        "id": 98,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 1129.8,
+        "brand": "Adidas",
+        "year": 2018,
+        "description": "Comfortable and stylish.",
+        "stock": 47
+    },
+    {
+        "id": 99,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 231.21,
+        "brand": "George Orwell",
+        "year": 1994,
+        "description": "Limited edition item.",
+        "stock": 47
+    },
+    {
+        "id": 100,
+        "category": "Clothing",
+        "name": "Backpack",
+        "price": 1967.7,
+        "brand": "Nike",
+        "year": 1996,
+        "description": "Best-selling product.",
+        "stock": 86
+    },
+    {
+        "id": 101,
+        "category": "Books",
+        "name": "1984",
+        "price": 953.45,
+        "brand": "J.K. Rowling",
+        "year": 1992,
+        "description": "Limited edition item.",
+        "stock": 27
+    },
+    {
+        "id": 102,
+        "category": "Books",
+        "name": "Harry Potter",
+        "price": 1308.4,
+        "brand": "J.K. Rowling",
+        "year": 2013,
+        "description": "Best-selling product.",
+        "stock": 6
+    },
+    {
+        "id": 103,
+        "category": "Electronics",
+        "name": "Camera",
+        "price": 1007.73,
+        "brand": "Samsung",
+        "year": 2008,
+        "description": "Customer favorite choice.",
+        "stock": 18
+    },
+    {
+        "id": 104,
+        "category": "Home",
+        "name": "Table",
+        "price": 426.35,
+        "brand": "Panasonic",
+        "year": 2022,
+        "description": "Limited edition item.",
+        "stock": 23
+    },
+    {
+        "id": 105,
+        "category": "Home",
+        "name": "Lamp",
+        "price": 1699.46,
+        "brand": "Panasonic",
+        "year": 2015,
+        "description": "Limited edition item.",
+        "stock": 79
+    },
+    {
+        "id": 106,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 330.39,
+        "brand": "Spalding",
+        "year": 2016,
+        "description": "Best-selling product.",
+        "stock": 9
+    },
+    {
+        "id": 107,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 1412.59,
+        "brand": "George Orwell",
+        "year": 1993,
+        "description": "Comfortable and stylish.",
+        "stock": 91
+    },
+    {
+        "id": 108,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 987.77,
+        "brand": "Adidas",
+        "year": 2001,
+        "description": "High quality and durable.",
+        "stock": 27
+    },
+    {
+        "id": 109,
+        "category": "Clothing",
+        "name": "Watch",
+        "price": 926.33,
+        "brand": "Zara",
+        "year": 2014,
+        "description": "Best-selling product.",
+        "stock": 84
+    },
+    {
+        "id": 110,
+        "category": "Sports",
+        "name": "Tennis Racket",
+        "price": 1177.54,
+        "brand": "Yonex",
+        "year": 2010,
+        "description": "Comfortable and stylish.",
+        "stock": 3
+    },
+    {
+        "id": 111,
+        "category": "Home",
+        "name": "Sofa",
+        "price": 1541.13,
+        "brand": "Philips",
+        "year": 2013,
+        "description": "High quality and durable.",
+        "stock": 49
+    },
+    {
+        "id": 112,
+        "category": "Books",
+        "name": "Murder on the Orient Express",
+        "price": 1601.98,
+        "brand": "Agatha Christie",
+        "year": 1991,
+        "description": "Customer favorite choice.",
+        "stock": 11
+    },
+    {
+        "id": 113,
+        "category": "Sports",
+        "name": "Tennis Racket",
+        "price": 1650.38,
+        "brand": "Wilson",
+        "year": 2009,
+        "description": "Comfortable and stylish.",
+        "stock": 69
+    },
+    {
+        "id": 114,
+        "category": "Sports",
+        "name": "Basketball",
+        "price": 541.97,
+        "brand": "Decathlon",
+        "year": 1998,
+        "description": "Customer favorite choice.",
+        "stock": 50
+    },
+    {
+        "id": 115,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 1993.42,
+        "brand": "J.D. Salinger",
+        "year": 2008,
+        "description": "Limited edition item.",
+        "stock": 25
+    },
+    {
+        "id": 116,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 294.55,
+        "brand": "Zara",
+        "year": 2008,
+        "description": "Customer favorite choice.",
+        "stock": 87
+    },
+    {
+        "id": 117,
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": 1521.16,
+        "brand": "Puma",
+        "year": 1993,
+        "description": "Limited edition item.",
+        "stock": 25
+    },
+    {
+        "id": 118,
+        "category": "Clothing",
+        "name": "Shirt",
+        "price": 1484.01,
+        "brand": "Puma",
+        "year": 2017,
+        "description": "Customer favorite choice.",
+        "stock": 37
+    },
+    {
+        "id": 119,
+        "category": "Home",
+        "name": "Table",
+        "price": 1929.04,
+        "brand": "Panasonic",
+        "year": 2000,
+        "description": "Limited edition item.",
+        "stock": 79
+    },
+    {
+        "id": 120,
+        "category": "Books",
+        "name": "The Catcher in the Rye",
+        "price": 1781.53,
+        "brand": "Agatha Christie",
+        "year": 1993,
+        "description": "Comfortable and stylish.",
+        "stock": 65
+    }
 ]
