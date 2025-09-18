@@ -7,7 +7,7 @@ import os
 
 def open_register():
     root.destroy()
-    register.register_page()
+    register.register_page() # open the registration window
 
 def login_user(username, password):
     

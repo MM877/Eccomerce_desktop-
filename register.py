@@ -50,6 +50,8 @@ def register_page():
     def open_login():
         root.destroy()
         login.login_page()
+
+        
     # --- Save Data Function ---
     def save_data():
         name = entry_name.get().strip()
