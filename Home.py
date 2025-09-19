@@ -1,7 +1,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 import json, os
-from products_page import products_page   # 👈 import here
+from products_page import products_page   
 
 def load_categories():
     if os.path.exists("products.json"):
