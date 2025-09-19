@@ -11,11 +11,6 @@ def load_products(category):
         # filter items by category field
         return [item for item in data if item["category"] == category]
 
-
-# --- Add to cart function ---
-def add_to_cart(product):
-    print("Added to cart:", product["name"])
-
 # --- Binary Search with Partial Match ---
 def binary_search_partial(products, query):
     products_sorted = sorted(products, key=lambda x: x["name"].lower())
@@ -44,7 +39,6 @@ def binary_search_partial(products, query):
 
     return results
 
-
 # --- Products Page ---
 def products_page(category):
     root = Toplevel()
@@ -52,10 +46,13 @@ def products_page(category):
     root.title(f"{category} Products")
 
     # Background
-    bg = ImageTk.PhotoImage(Image.open("cat.png").resize((1320, 672)))
-    bg_label = Label(root, image=bg)
-    bg_label.image = bg
-    bg_label.place(x=0, y=0)
+    try:
+        bg = ImageTk.PhotoImage(Image.open("cat.png").resize((1320, 672)))
+        bg_label = Label(root, image=bg)
+        bg_label.image = bg
+        bg_label.place(x=0, y=0)
+    except:
+        root.configure(bg="#f0f0f0")  # fallback color if image not found
 
     # Title + Cart Button
     top_frame = Frame(root, bg="white")
@@ -65,14 +62,12 @@ def products_page(category):
     Button(top_frame, text="🛒 Cart", font=("Arial", 14), bg="orange", fg="white",
            command=cart_page).pack(side=RIGHT, padx=20)
 
-    # Search bar (UI only)
+    # Search bar
     search_frame = Frame(root, bg="white")
     search_frame.pack(pady=10)
 
     search_entry = Entry(search_frame, font=("Arial", 14), width=40)
     search_entry.pack(side=LEFT, padx=5)
-
-    Button(search_frame, text="Search", font=("Arial", 12), bg="#4CAF50", fg="white").pack(side=LEFT, padx=5)
 
     # Scrollable Canvas
     canvas = Canvas(root, bg="white", highlightthickness=0)
@@ -90,32 +85,41 @@ def products_page(category):
 
     canvas.configure(yscrollcommand=scrollbar.set)
 
+    # Load products
+    products = load_products(category)
+
+    # --- Function to handle add to cart with message ---
+    def handle_add_to_cart(product):
+        add_to_cart(product)   # This calls the function from cart.py
+        messagebox.showinfo("Cart", f"✅ {product['name']} added to cart!")
 
     # --- Function to display products ---
     def display_products(prod_list):
+        # Clear existing products
         for widget in product_frame.winfo_children():
             widget.destroy()
 
         row, col = 0, 0
         for product in prod_list:
-            card = Frame(product_frame, bg="white", bd=2, relief="groove", width=250, height=180)
+            card = Frame(product_frame, bg="white", bd=2, relief="groove", width=250, height=200)
             card.grid(row=row, column=col, padx=20, pady=20)
+            card.grid_propagate(False)  # Maintain fixed size
 
             Label(card, text=product["name"], font=("Arial", 14, "bold"), bg="white").pack(pady=5)
             Label(card, text=f"Price: ${product['price']}", font=("Arial", 12), bg="white").pack()
             Label(card, text=f"Stock: {product['stock']}", font=("Arial", 10), bg="white", fg="gray").pack()
 
-        
+            Button(card, text="Add to Cart", bg="#2196F3", fg="white",
+                   command=lambda p=product: handle_add_to_cart(p)).pack(pady=8)
 
             col += 1
-            if col == 3:
+            if col == 3:  # 3 products per row
                 col = 0
                 row += 1
-            def handle_add_to_cart(p=product):
-                add_to_cart(p)   
-                messagebox.showinfo("Cart", f"✅ {p['name']} added to cart!") 
-            Button(card, text="Add to Cart", bg="#2196F3", fg="white",
-                   command=handle_add_to_cart).pack(pady=8)
+
+        # Update scroll region
+        product_frame.update_idletasks()
+        canvas.configure(scrollregion=canvas.bbox("all"))
 
     # --- Search logic ---
     def do_search():
@@ -126,29 +130,11 @@ def products_page(category):
         else:
             display_products(products)
 
+    # Add search button functionality
     Button(search_frame, text="Search", font=("Arial", 12), bg="#4CAF50", fg="white",
            command=do_search).pack(side=LEFT, padx=5)
 
- 
-    products = load_products(category)
-
-    # Show products in cards
-    row = 0
-    col = 3
-    for product in products:
-        card = Frame(product_frame, bg="white", bd=2, relief="groove", width=250, height=180)
-        card.grid(row=row, column=col, padx=20, pady=20)
-
-        Label(card, text=product["name"], font=("Arial", 14, "bold"), bg="white").pack(pady=5)
-        Label(card, text=f"Price: ${product['price']}", font=("Arial", 12), bg="white").pack()
-        Label(card, text=f"Stock: {product['stock']}", font=("Arial", 10), bg="white", fg="gray").pack()
-        
-        Button(card, text="Add to Cart", bg="#2196F3", fg="white",
-               command=lambda p=product: add_to_cart(p)).pack(pady=8)
-
-        col += 1
-        if col == 3:  # 3 products per row
-            col = 0
-            row += 1
+    # Display all products initially
+    display_products(products)
 
     root.mainloop()
