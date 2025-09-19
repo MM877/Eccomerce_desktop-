@@ -11,11 +11,11 @@ def load_products(category):
         # filter items by category field
         return [item for item in data if item["category"] == category]
 
-<<<<<<< Updated upstream
+
 # --- Add to cart function ---
 def add_to_cart(product):
     print("Added to cart:", product["name"])
-=======
+
 # --- Binary Search with Partial Match ---
 def binary_search_partial(products, query):
     products_sorted = sorted(products, key=lambda x: x["name"].lower())
@@ -43,7 +43,7 @@ def binary_search_partial(products, query):
             high = mid - 1
 
     return results
->>>>>>> Stashed changes
+
 
 # --- Products Page ---
 def products_page(category):
@@ -90,9 +90,7 @@ def products_page(category):
 
     canvas.configure(yscrollcommand=scrollbar.set)
 
-<<<<<<< Updated upstream
-    # Load products
-=======
+
     # --- Function to display products ---
     def display_products(prod_list):
         for widget in product_frame.winfo_children():
@@ -110,7 +108,7 @@ def products_page(category):
         
 
             col += 1
-            if col == 5:
+            if col == 3:
                 col = 0
                 row += 1
             def handle_add_to_cart(p=product):
@@ -131,13 +129,12 @@ def products_page(category):
     Button(search_frame, text="Search", font=("Arial", 12), bg="#4CAF50", fg="white",
            command=do_search).pack(side=LEFT, padx=5)
 
-    # Load products initially
->>>>>>> Stashed changes
+ 
     products = load_products(category)
 
     # Show products in cards
     row = 0
-    col = 0
+    col = 3
     for product in products:
         card = Frame(product_frame, bg="white", bd=2, relief="groove", width=250, height=180)
         card.grid(row=row, column=col, padx=20, pady=20)
