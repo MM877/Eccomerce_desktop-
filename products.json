@@ -1,282 +1,6002 @@
 [
-  {
-    "id": 1,
-    "category": "HomeAppliances",
-    "name": "sdmfkmdkfm Oven",
-    "price": 199,
-    "brand": "Panasonic",
-    "year": 2023,
-    "description": "High-quality microwave with advanced features",
-    "stock": 8
-  },
-  {
-    "id": 2,
-    "category": "HomeAppliances",
-    "name": "Refrigerator",
-    "price": 999,
-    "brand": "Samsung",
-    "year": 2022,
-    "description": "Energy-efficient smart refrigerator",
-    "stock": 8
-  },
-  {
-    "id": 3,
-    "category": "HomeAppliances",
-    "name": "Washing Machine",
-    "price": 699,
-    "brand": "LG",
-    "year": 2021,
-    "description": "Front-loading washing machine with steam cleaning",
-    "stock": 12
-  },
-  {
-    "id": 4,
-    "category": "HomeAppliances",
-    "name": "Air Conditioner",
-    "price": 549,
-    "brand": "Carrier",
-    "year": 2023,
-    "description": "Split AC with inverter technology",
-    "stock": 10
-  },
-  {
-    "id": 5,
-    "category": "Electronics",
-    "name": "Camera",
-    "price": 599,
-    "brand": "Nikon",
-    "year": 2023,
-    "description": "DSLR camera with 24MP sensor",
-    "stock": 6
-  },
-  {
-    "id": 6,
-    "category": "Electronics",
-    "name": "Gaming Console",
-    "price": 399,
-    "brand": "Microsoft",
-    "year": 2021,
-    "description": "Xbox Series X gaming console",
-    "stock": 4
-  },
-  {
-    "id": 7,
-    "category": "Electronics",
-    "name": "Headphones",
-    "price": 99,
-    "brand": "Bose",
-    "year": 2023,
-    "description": "Wireless noise-cancelling headphones",
-    "stock": 20
-  },
-  {
-    "id": 8,
-    "category": "Electronics",
-    "name": "Laptop",
-    "price": 1499,
-    "brand": "Dell",
-    "year": 2021,
-    "description": "High-performance laptop for professionals",
-    "stock": 7
-  },
-  {
-    "id": 9,
-    "category": "Electronics",
-    "name": "Smart TV",
-    "price": 999,
-    "brand": "Sony",
-    "year": 2022,
-    "description": "4K Smart TV with HDR support",
-    "stock": 5
-  },
-  {
-    "id": 10,
-    "category": "Electronics",
-    "name": "Smartphone",
-    "price": 699,
-    "brand": "Apple",
-    "year": 2022,
-    "description": "iPhone with advanced camera system",
-    "stock": 12
-  },
-  {
-    "id": 11,
-    "category": "Fashion",
-    "name": "Dress",
-    "price": 79,
-    "brand": "Zara",
-    "year": 2023,
-    "description": "Elegant summer dress",
-    "stock": 25
-  },
-  {
-    "id": 12,
-    "category": "Fashion",
-    "name": "Handbag",
-    "price": 149,
-    "brand": "Michael Kors",
-    "year": 2021,
-    "description": "Luxury leather handbag",
-    "stock": 18
-  },
-  {
-    "id": 13,
-    "category": "Fashion",
-    "name": "Jeans",
-    "price": 59,
-    "brand": "Levi's",
-    "year": 2021,
-    "description": "Classic blue jeans",
-    "stock": 30
-  },
-  {
-    "id": 14,
-    "category": "Fashion",
-    "name": "Sneakers",
-    "price": 99,
-    "brand": "Adidas",
-    "year": 2022,
-    "description": "Comfortable running sneakers",
-    "stock": 22
-  },
-  {
-    "id": 15,
-    "category": "Fashion",
-    "name": "T-Shirt",
-    "price": 29,
-    "brand": "Nike",
-    "year": 2022,
-    "description": "Cotton sports t-shirt",
-    "stock": 40
-  },
-  {
-    "id": 16,
-    "category": "Fashion",
-    "name": "Watch",
-    "price": 199,
-    "brand": "Fossil",
-    "year": 2023,
-    "description": "Stylish analog watch",
-    "stock": 14
-  },
-  {
-    "id": 17,
-    "category": "Books",
-    "name": "1984",
-    "price": 8,
-    "brand": "George Orwell",
-    "year": 1949,
-    "description": "Classic dystopian novel",
-    "stock": 50
-  },
-  {
-    "id": 18,
-    "category": "Books",
-    "name": "Harry Potter",
-    "price": 15,
-    "brand": "J.K. Rowling",
-    "year": 1997,
-    "description": "Fantasy adventure series",
-    "stock": 35
-  },
-  {
-    "id": 19,
-    "category": "Books",
-    "name": "Pride and Prejudice",
-    "price": 9,
-    "brand": "Jane Austen",
-    "year": 1813,
-    "description": "Classic romance novel",
-    "stock": 28
-  },
-  {
-    "id": 20,
-    "category": "Books",
-    "name": "The Great Gatsby",
-    "price": 12,
-    "brand": "F. Scott Fitzgerald",
-    "year": 1925,
-    "description": "American classic literature",
-    "stock": 32
-  },
-  {
-    "id": 21,
-    "category": "Books",
-    "name": "To Kill a Mockingbird",
-    "price": 10,
-    "brand": "Harper Lee",
-    "year": 1960,
-    "description": "Pulitzer Prize winning novel",
-    "stock": 26
-  },
-  {
-    "id": 22,
-    "category": "Books",
-    "name": "The Catcher in the Rye",
-    "price": 11,
-    "brand": "J.D. Salinger",
-    "year": 1951,
-    "description": "Coming-of-age story",
-    "stock": 24
-  },
-  {
-    "id": 23,
-    "category": "Sports",
-    "name": "Athletic Shorts",
-    "price": 49,
-    "brand": "Puma",
-    "year": 2022,
-    "description": "Breathable sports shorts",
-    "stock": 35
-  },
-  {
-    "id": 24,
-    "category": "Sports",
-    "name": "Tennis Racket",
-    "price": 129,
-    "brand": "Wilson",
-    "year": 2023,
-    "description": "Professional tennis racket",
-    "stock": 16
-  },
-  {
-    "id": 25,
-    "category": "Sports",
-    "name": "Running Shoes",
-    "price": 79,
-    "brand": "Nike",
-    "year": 2022,
-    "description": "Lightweight running shoes",
-    "stock": 28
-  },
-  {
-    "id": 26,
-    "category": "Sports",
-    "name": "Sports Leggings",
-    "price": 39,
-    "brand": "Adidas",
-    "year": 2021,
-    "description": "Flexible workout leggings",
-    "stock": 42
-  },
-  {
-    "id": 27,
-    "category": "Sports",
-    "name": "Sweatbands",
-    "price": 12,
-    "brand": "New Balance",
-    "year": 2023,
-    "description": "Moisture-wicking sweatbands",
-    "stock": 60
-  },
-  {
-    "id": 28,
-    "category": "Sports",
-    "name": "Training T-Shirt",
-    "price": 35,
-    "brand": "Reebok",
-    "year": 2021,
-    "description": "Quick-dry training shirt",
-    "stock": 38
-  }
+    {
+        "id": 1,
+        "category": "Furniture",
+        "name": "Washing Machine 1",
+        "price": 4832.8,
+        "brand": "HP",
+        "year": 2019,
+        "description": "High-quality washing machine 1 from HP, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 2,
+        "category": "Lighting",
+        "name": "T-Shirt 2",
+        "price": 4257.89,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality t-shirt 2 from Puma, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 3,
+        "category": "Books",
+        "name": "Shoes 3",
+        "price": 400.35,
+        "brand": "Zara",
+        "year": 2024,
+        "description": "High-quality shoes 3 from Zara, perfect for everyday use.",
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "category": "Accessories",
+        "name": "Printer 4",
+        "price": 2355.25,
+        "brand": "Adidas",
+        "year": 2020,
+        "description": "High-quality printer 4 from Adidas, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 5,
+        "category": "Outdoors",
+        "name": "Ring 5",
+        "price": 3013.7,
+        "brand": "Adidas",
+        "year": 2020,
+        "description": "High-quality ring 5 from Adidas, perfect for everyday use.",
+        "stock": 97
+    },
+    {
+        "id": 6,
+        "category": "Baby",
+        "name": "Jacket 6",
+        "price": 812.7,
+        "brand": "LG",
+        "year": 2019,
+        "description": "High-quality jacket 6 from LG, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 7,
+        "category": "Books",
+        "name": "Speaker 7",
+        "price": 144.18,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality speaker 7 from Apple, perfect for everyday use.",
+        "stock": 28
+    },
+    {
+        "id": 8,
+        "category": "Electronics",
+        "name": "Bicycle 8",
+        "price": 979.17,
+        "brand": "Sony",
+        "year": 2020,
+        "description": "High-quality bicycle 8 from Sony, perfect for everyday use.",
+        "stock": 56
+    },
+    {
+        "id": 9,
+        "category": "Electronics",
+        "name": "Air Conditioner 9",
+        "price": 2370.41,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality air conditioner 9 from Microsoft, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 10,
+        "category": "Jewelry",
+        "name": "Speaker 10",
+        "price": 2971.05,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality speaker 10 from Adidas, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 11,
+        "category": "Shoes",
+        "name": "Desk Lamp 11",
+        "price": 1708.72,
+        "brand": "Asus",
+        "year": 2023,
+        "description": "High-quality desk lamp 11 from Asus, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 12,
+        "category": "Electronics",
+        "name": "Bicycle 12",
+        "price": 2347.06,
+        "brand": "Microsoft",
+        "year": 2022,
+        "description": "High-quality bicycle 12 from Microsoft, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 13,
+        "category": "Groceries",
+        "name": "Tablet 13",
+        "price": 3292.37,
+        "brand": "Zara",
+        "year": 2022,
+        "description": "High-quality tablet 13 from Zara, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 14,
+        "category": "Groceries",
+        "name": "Speaker 14",
+        "price": 1550.65,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality speaker 14 from Rolex, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 15,
+        "category": "Pets",
+        "name": "Headphones 15",
+        "price": 570.64,
+        "brand": "Philips",
+        "year": 2019,
+        "description": "High-quality headphones 15 from Philips, perfect for everyday use.",
+        "stock": 51
+    },
+    {
+        "id": 16,
+        "category": "Gaming",
+        "name": "Gaming Console 16",
+        "price": 3593.5,
+        "brand": "Philips",
+        "year": 2025,
+        "description": "High-quality gaming console 16 from Philips, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 17,
+        "category": "Groceries",
+        "name": "Headphones 17",
+        "price": 1619.23,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality headphones 17 from Sony, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 18,
+        "category": "Kitchen",
+        "name": "Gaming Console 18",
+        "price": 1531.49,
+        "brand": "Samsung",
+        "year": 2020,
+        "description": "High-quality gaming console 18 from Samsung, perfect for everyday use.",
+        "stock": 37
+    },
+    {
+        "id": 19,
+        "category": "Accessories",
+        "name": "Speaker 19",
+        "price": 13.12,
+        "brand": "Asus",
+        "year": 2022,
+        "description": "High-quality speaker 19 from Asus, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 20,
+        "category": "Books",
+        "name": "Bicycle 20",
+        "price": 370.47,
+        "brand": "Philips",
+        "year": 2024,
+        "description": "High-quality bicycle 20 from Philips, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 21,
+        "category": "Fashion",
+        "name": "Watch 21",
+        "price": 1423.15,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality watch 21 from Fossil, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 22,
+        "category": "Pets",
+        "name": "Camera 22",
+        "price": 4887.22,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "High-quality camera 22 from Panasonic, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 23,
+        "category": "Beauty",
+        "name": "Jeans 23",
+        "price": 3245.91,
+        "brand": "LG",
+        "year": 2025,
+        "description": "High-quality jeans 23 from LG, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 24,
+        "category": "Fashion",
+        "name": "Smartphone 24",
+        "price": 3291.47,
+        "brand": "Nike",
+        "year": 2021,
+        "description": "High-quality smartphone 24 from Nike, perfect for everyday use.",
+        "stock": 80
+    },
+    {
+        "id": 25,
+        "category": "Electronics",
+        "name": "Ring 25",
+        "price": 2016.51,
+        "brand": "Apple",
+        "year": 2018,
+        "description": "High-quality ring 25 from Apple, perfect for everyday use.",
+        "stock": 56
+    },
+    {
+        "id": 26,
+        "category": "Watches",
+        "name": "Jacket 26",
+        "price": 2485.76,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality jacket 26 from Microsoft, perfect for everyday use.",
+        "stock": 69
+    },
+    {
+        "id": 27,
+        "category": "Clothing",
+        "name": "Toy Car 27",
+        "price": 3426.37,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality toy car 27 from Zara, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 28,
+        "category": "Outdoors",
+        "name": "Perfume 28",
+        "price": 934.54,
+        "brand": "Philips",
+        "year": 2025,
+        "description": "High-quality perfume 28 from Philips, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 29,
+        "category": "Kitchen",
+        "name": "Gaming Console 29",
+        "price": 3439.22,
+        "brand": "Nike",
+        "year": 2022,
+        "description": "High-quality gaming console 29 from Nike, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 30,
+        "category": "Health",
+        "name": "Desk Lamp 30",
+        "price": 4794.72,
+        "brand": "Bosch",
+        "year": 2021,
+        "description": "High-quality desk lamp 30 from Bosch, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 31,
+        "category": "Outdoors",
+        "name": "Washing Machine 31",
+        "price": 4653.88,
+        "brand": "Nike",
+        "year": 2018,
+        "description": "High-quality washing machine 31 from Nike, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 32,
+        "category": "Gaming",
+        "name": "Jeans 32",
+        "price": 274.83,
+        "brand": "Sony",
+        "year": 2023,
+        "description": "High-quality jeans 32 from Sony, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 33,
+        "category": "Clothing",
+        "name": "Monitor 33",
+        "price": 4807.77,
+        "brand": "Panasonic",
+        "year": 2023,
+        "description": "High-quality monitor 33 from Panasonic, perfect for everyday use.",
+        "stock": 21
+    },
+    {
+        "id": 34,
+        "category": "Automotive",
+        "name": "Watch 34",
+        "price": 2557.06,
+        "brand": "Sony",
+        "year": 2024,
+        "description": "High-quality watch 34 from Sony, perfect for everyday use.",
+        "stock": 99
+    },
+    {
+        "id": 35,
+        "category": "Accessories",
+        "name": "Monitor 35",
+        "price": 2127.83,
+        "brand": "Bosch",
+        "year": 2022,
+        "description": "High-quality monitor 35 from Bosch, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 36,
+        "category": "Fitness",
+        "name": "Book 36",
+        "price": 2152.21,
+        "brand": "Asus",
+        "year": 2018,
+        "description": "High-quality book 36 from Asus, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 37,
+        "category": "Shoes",
+        "name": "Smartphone 37",
+        "price": 2264.55,
+        "brand": "Sony",
+        "year": 2018,
+        "description": "High-quality smartphone 37 from Sony, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 38,
+        "category": "Fashion",
+        "name": "Sofa 38",
+        "price": 3470.35,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality sofa 38 from Dell, perfect for everyday use.",
+        "stock": 78
+    },
+    {
+        "id": 39,
+        "category": "Gaming",
+        "name": "Jacket 39",
+        "price": 564.2,
+        "brand": "Bosch",
+        "year": 2018,
+        "description": "High-quality jacket 39 from Bosch, perfect for everyday use.",
+        "stock": 99
+    },
+    {
+        "id": 40,
+        "category": "Fashion",
+        "name": "Mouse 40",
+        "price": 1348.09,
+        "brand": "Nike",
+        "year": 2022,
+        "description": "High-quality mouse 40 from Nike, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 41,
+        "category": "Baby",
+        "name": "Sunglasses 41",
+        "price": 4480.39,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality sunglasses 41 from Dell, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 42,
+        "category": "Kitchen",
+        "name": "Printer 42",
+        "price": 1988.22,
+        "brand": "Microsoft",
+        "year": 2022,
+        "description": "High-quality printer 42 from Microsoft, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 43,
+        "category": "Gaming",
+        "name": "Refrigerator 43",
+        "price": 1254.01,
+        "brand": "Canon",
+        "year": 2025,
+        "description": "High-quality refrigerator 43 from Canon, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 44,
+        "category": "Stationery",
+        "name": "Shoes 44",
+        "price": 2173.02,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality shoes 44 from Dell, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 45,
+        "category": "Toys",
+        "name": "Mouse 45",
+        "price": 4842.48,
+        "brand": "LG",
+        "year": 2021,
+        "description": "High-quality mouse 45 from LG, perfect for everyday use.",
+        "stock": 67
+    },
+    {
+        "id": 46,
+        "category": "Groceries",
+        "name": "Headphones 46",
+        "price": 4561.26,
+        "brand": "Bosch",
+        "year": 2020,
+        "description": "High-quality headphones 46 from Bosch, perfect for everyday use.",
+        "stock": 26
+    },
+    {
+        "id": 47,
+        "category": "Groceries",
+        "name": "Jeans 47",
+        "price": 3551.66,
+        "brand": "Microsoft",
+        "year": 2021,
+        "description": "High-quality jeans 47 from Microsoft, perfect for everyday use.",
+        "stock": 93
+    },
+    {
+        "id": 48,
+        "category": "Pets",
+        "name": "Watch 48",
+        "price": 4170.92,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality watch 48 from Puma, perfect for everyday use.",
+        "stock": 67
+    },
+    {
+        "id": 49,
+        "category": "Electronics",
+        "name": "Sunglasses 49",
+        "price": 1009.23,
+        "brand": "Zara",
+        "year": 2019,
+        "description": "High-quality sunglasses 49 from Zara, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 50,
+        "category": "Furniture",
+        "name": "Perfume 50",
+        "price": 704.1,
+        "brand": "Nikon",
+        "year": 2024,
+        "description": "High-quality perfume 50 from Nikon, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 51,
+        "category": "Health",
+        "name": "Smartphone 51",
+        "price": 1155.52,
+        "brand": "Samsung",
+        "year": 2021,
+        "description": "High-quality smartphone 51 from Samsung, perfect for everyday use.",
+        "stock": 28
+    },
+    {
+        "id": 52,
+        "category": "Baby",
+        "name": "Microwave 52",
+        "price": 3177.11,
+        "brand": "Rolex",
+        "year": 2024,
+        "description": "High-quality microwave 52 from Rolex, perfect for everyday use.",
+        "stock": 50
+    },
+    {
+        "id": 53,
+        "category": "Fashion",
+        "name": "Ring 53",
+        "price": 4751.7,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality ring 53 from Sony, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 54,
+        "category": "Kitchen",
+        "name": "Backpack 54",
+        "price": 1196.74,
+        "brand": "Fossil",
+        "year": 2019,
+        "description": "High-quality backpack 54 from Fossil, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 55,
+        "category": "Tools",
+        "name": "Charger 55",
+        "price": 779.65,
+        "brand": "HP",
+        "year": 2019,
+        "description": "High-quality charger 55 from HP, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 56,
+        "category": "Clothing",
+        "name": "Perfume 56",
+        "price": 4478.51,
+        "brand": "Bosch",
+        "year": 2022,
+        "description": "High-quality perfume 56 from Bosch, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 57,
+        "category": "Toys",
+        "name": "Refrigerator 57",
+        "price": 2869.86,
+        "brand": "Asus",
+        "year": 2023,
+        "description": "High-quality refrigerator 57 from Asus, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 58,
+        "category": "Electronics",
+        "name": "Book 58",
+        "price": 3697.15,
+        "brand": "Canon",
+        "year": 2022,
+        "description": "High-quality book 58 from Canon, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 59,
+        "category": "Toys",
+        "name": "Monitor 59",
+        "price": 1950.22,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality monitor 59 from Adidas, perfect for everyday use.",
+        "stock": 27
+    },
+    {
+        "id": 60,
+        "category": "Office",
+        "name": "Laptop 60",
+        "price": 2304.37,
+        "brand": "Nike",
+        "year": 2025,
+        "description": "High-quality laptop 60 from Nike, perfect for everyday use.",
+        "stock": 56
+    },
+    {
+        "id": 61,
+        "category": "Fitness",
+        "name": "Charger 61",
+        "price": 3451.87,
+        "brand": "Lenovo",
+        "year": 2022,
+        "description": "High-quality charger 61 from Lenovo, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 62,
+        "category": "Furniture",
+        "name": "Mouse 62",
+        "price": 4663.9,
+        "brand": "Asus",
+        "year": 2023,
+        "description": "High-quality mouse 62 from Asus, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 63,
+        "category": "Music",
+        "name": "Camera 63",
+        "price": 4852.54,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality camera 63 from Fossil, perfect for everyday use.",
+        "stock": 71
+    },
+    {
+        "id": 64,
+        "category": "Pets",
+        "name": "Sunglasses 64",
+        "price": 3354.88,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality sunglasses 64 from Dell, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 65,
+        "category": "Music",
+        "name": "Shoes 65",
+        "price": 4601.18,
+        "brand": "Nikon",
+        "year": 2021,
+        "description": "High-quality shoes 65 from Nikon, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 66,
+        "category": "Gaming",
+        "name": "Sofa 66",
+        "price": 3260.02,
+        "brand": "Asus",
+        "year": 2020,
+        "description": "High-quality sofa 66 from Asus, perfect for everyday use.",
+        "stock": 96
+    },
+    {
+        "id": 67,
+        "category": "Fashion",
+        "name": "Gaming Console 67",
+        "price": 2751.68,
+        "brand": "Apple",
+        "year": 2024,
+        "description": "High-quality gaming console 67 from Apple, perfect for everyday use.",
+        "stock": 76
+    },
+    {
+        "id": 68,
+        "category": "Beauty",
+        "name": "Desk Lamp 68",
+        "price": 3583.73,
+        "brand": "Nikon",
+        "year": 2022,
+        "description": "High-quality desk lamp 68 from Nikon, perfect for everyday use.",
+        "stock": 26
+    },
+    {
+        "id": 69,
+        "category": "Gaming",
+        "name": "Jeans 69",
+        "price": 3839.31,
+        "brand": "Canon",
+        "year": 2022,
+        "description": "High-quality jeans 69 from Canon, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 70,
+        "category": "Beauty",
+        "name": "Printer 70",
+        "price": 472.01,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality printer 70 from Adidas, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 71,
+        "category": "Fashion",
+        "name": "Backpack 71",
+        "price": 4045.1,
+        "brand": "Apple",
+        "year": 2025,
+        "description": "High-quality backpack 71 from Apple, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 72,
+        "category": "Shoes",
+        "name": "Headphones 72",
+        "price": 3804.76,
+        "brand": "LG",
+        "year": 2018,
+        "description": "High-quality headphones 72 from LG, perfect for everyday use.",
+        "stock": 28
+    },
+    {
+        "id": 73,
+        "category": "Kitchen",
+        "name": "Keyboard 73",
+        "price": 4363.08,
+        "brand": "HP",
+        "year": 2020,
+        "description": "High-quality keyboard 73 from HP, perfect for everyday use.",
+        "stock": 16
+    },
+    {
+        "id": 74,
+        "category": "Books",
+        "name": "Jeans 74",
+        "price": 3787.17,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality jeans 74 from HP, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 75,
+        "category": "HomeAppliances",
+        "name": "Bicycle 75",
+        "price": 4469.27,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality bicycle 75 from Zara, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 76,
+        "category": "Luggage",
+        "name": "Printer 76",
+        "price": 1185.81,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality printer 76 from Canon, perfect for everyday use.",
+        "stock": 85
+    },
+    {
+        "id": 77,
+        "category": "Tools",
+        "name": "Printer 77",
+        "price": 2262.25,
+        "brand": "Bosch",
+        "year": 2024,
+        "description": "High-quality printer 77 from Bosch, perfect for everyday use.",
+        "stock": 48
+    },
+    {
+        "id": 78,
+        "category": "Fashion",
+        "name": "Book 78",
+        "price": 3396.41,
+        "brand": "Microsoft",
+        "year": 2019,
+        "description": "High-quality book 78 from Microsoft, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 79,
+        "category": "Tools",
+        "name": "Refrigerator 79",
+        "price": 600.67,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality refrigerator 79 from Dell, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 80,
+        "category": "Clothing",
+        "name": "Washing Machine 80",
+        "price": 755.46,
+        "brand": "Asus",
+        "year": 2024,
+        "description": "High-quality washing machine 80 from Asus, perfect for everyday use.",
+        "stock": 88
+    },
+    {
+        "id": 81,
+        "category": "Groceries",
+        "name": "Jeans 81",
+        "price": 3017.82,
+        "brand": "HP",
+        "year": 2020,
+        "description": "High-quality jeans 81 from HP, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 82,
+        "category": "Outdoors",
+        "name": "Watch 82",
+        "price": 1119.27,
+        "brand": "LG",
+        "year": 2021,
+        "description": "High-quality watch 82 from LG, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 83,
+        "category": "HomeAppliances",
+        "name": "Sofa 83",
+        "price": 3762.62,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality sofa 83 from HP, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 84,
+        "category": "Fashion",
+        "name": "Toy Car 84",
+        "price": 3151.22,
+        "brand": "Sony",
+        "year": 2020,
+        "description": "High-quality toy car 84 from Sony, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 85,
+        "category": "Baby",
+        "name": "Printer 85",
+        "price": 1251.69,
+        "brand": "Dell",
+        "year": 2022,
+        "description": "High-quality printer 85 from Dell, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 86,
+        "category": "Stationery",
+        "name": "Desk Lamp 86",
+        "price": 4053.66,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality desk lamp 86 from Canon, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 87,
+        "category": "HomeAppliances",
+        "name": "Gaming Console 87",
+        "price": 2369.67,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality gaming console 87 from Fossil, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 88,
+        "category": "Groceries",
+        "name": "Monitor 88",
+        "price": 1931.46,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality monitor 88 from Zara, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 89,
+        "category": "Beauty",
+        "name": "Charger 89",
+        "price": 4379.4,
+        "brand": "Asus",
+        "year": 2021,
+        "description": "High-quality charger 89 from Asus, perfect for everyday use.",
+        "stock": 52
+    },
+    {
+        "id": 90,
+        "category": "Beauty",
+        "name": "T-Shirt 90",
+        "price": 1042.1,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality t-shirt 90 from Zara, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 91,
+        "category": "Fashion",
+        "name": "Keyboard 91",
+        "price": 809.36,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality keyboard 91 from Zara, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 92,
+        "category": "Lighting",
+        "name": "Tablet 92",
+        "price": 2513.34,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality tablet 92 from Dell, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 93,
+        "category": "Cameras",
+        "name": "Toy Car 93",
+        "price": 3325.81,
+        "brand": "HP",
+        "year": 2022,
+        "description": "High-quality toy car 93 from HP, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 94,
+        "category": "Beauty",
+        "name": "Smartphone 94",
+        "price": 1076.3,
+        "brand": "Zara",
+        "year": 2020,
+        "description": "High-quality smartphone 94 from Zara, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 95,
+        "category": "Health",
+        "name": "Laptop 95",
+        "price": 4031.33,
+        "brand": "Bosch",
+        "year": 2023,
+        "description": "High-quality laptop 95 from Bosch, perfect for everyday use.",
+        "stock": 48
+    },
+    {
+        "id": 96,
+        "category": "Health",
+        "name": "Shoes 96",
+        "price": 446.02,
+        "brand": "Lenovo",
+        "year": 2024,
+        "description": "High-quality shoes 96 from Lenovo, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 97,
+        "category": "Music",
+        "name": "Ring 97",
+        "price": 1409.5,
+        "brand": "Panasonic",
+        "year": 2021,
+        "description": "High-quality ring 97 from Panasonic, perfect for everyday use.",
+        "stock": 37
+    },
+    {
+        "id": 98,
+        "category": "Clothing",
+        "name": "Gaming Console 98",
+        "price": 2751.05,
+        "brand": "Zara",
+        "year": 2024,
+        "description": "High-quality gaming console 98 from Zara, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 99,
+        "category": "Books",
+        "name": "Camera 99",
+        "price": 999.8,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality camera 99 from Sony, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 100,
+        "category": "Beauty",
+        "name": "Tablet 100",
+        "price": 1773.9,
+        "brand": "Sony",
+        "year": 2018,
+        "description": "High-quality tablet 100 from Sony, perfect for everyday use.",
+        "stock": 60
+    },
+    {
+        "id": 101,
+        "category": "Books",
+        "name": "T-Shirt 101",
+        "price": 4405.13,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality t-shirt 101 from Canon, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 102,
+        "category": "Outdoors",
+        "name": "Ring 102",
+        "price": 3972.37,
+        "brand": "LG",
+        "year": 2025,
+        "description": "High-quality ring 102 from LG, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 103,
+        "category": "Beauty",
+        "name": "Jeans 103",
+        "price": 659.15,
+        "brand": "Lenovo",
+        "year": 2021,
+        "description": "High-quality jeans 103 from Lenovo, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 104,
+        "category": "Baby",
+        "name": "Bicycle 104",
+        "price": 4089.25,
+        "brand": "Zara",
+        "year": 2024,
+        "description": "High-quality bicycle 104 from Zara, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 105,
+        "category": "Luggage",
+        "name": "Air Conditioner 105",
+        "price": 4811.94,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality air conditioner 105 from Dell, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 106,
+        "category": "Tools",
+        "name": "Desk Lamp 106",
+        "price": 401.73,
+        "brand": "Dell",
+        "year": 2021,
+        "description": "High-quality desk lamp 106 from Dell, perfect for everyday use.",
+        "stock": 54
+    },
+    {
+        "id": 107,
+        "category": "Electronics",
+        "name": "Charger 107",
+        "price": 2462.02,
+        "brand": "LG",
+        "year": 2024,
+        "description": "High-quality charger 107 from LG, perfect for everyday use.",
+        "stock": 39
+    },
+    {
+        "id": 108,
+        "category": "Shoes",
+        "name": "Printer 108",
+        "price": 4467.51,
+        "brand": "Dell",
+        "year": 2025,
+        "description": "High-quality printer 108 from Dell, perfect for everyday use.",
+        "stock": 99
+    },
+    {
+        "id": 109,
+        "category": "Pets",
+        "name": "Jeans 109",
+        "price": 4416.55,
+        "brand": "Nikon",
+        "year": 2025,
+        "description": "High-quality jeans 109 from Nikon, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 110,
+        "category": "Office",
+        "name": "Tablet 110",
+        "price": 4040.45,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality tablet 110 from Samsung, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 111,
+        "category": "Toys",
+        "name": "Sunglasses 111",
+        "price": 943.41,
+        "brand": "Adidas",
+        "year": 2019,
+        "description": "High-quality sunglasses 111 from Adidas, perfect for everyday use.",
+        "stock": 92
+    },
+    {
+        "id": 112,
+        "category": "Accessories",
+        "name": "Book 112",
+        "price": 1785.67,
+        "brand": "HP",
+        "year": 2018,
+        "description": "High-quality book 112 from HP, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 113,
+        "category": "Books",
+        "name": "Microwave 113",
+        "price": 2900.02,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality microwave 113 from Sony, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 114,
+        "category": "Tools",
+        "name": "Mouse 114",
+        "price": 3189.98,
+        "brand": "Nikon",
+        "year": 2025,
+        "description": "High-quality mouse 114 from Nikon, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 115,
+        "category": "Kitchen",
+        "name": "T-Shirt 115",
+        "price": 617.18,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality t-shirt 115 from HP, perfect for everyday use.",
+        "stock": 63
+    },
+    {
+        "id": 116,
+        "category": "HomeAppliances",
+        "name": "Microwave 116",
+        "price": 3157.52,
+        "brand": "Puma",
+        "year": 2020,
+        "description": "High-quality microwave 116 from Puma, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 117,
+        "category": "Kitchen",
+        "name": "Printer 117",
+        "price": 996.35,
+        "brand": "Sony",
+        "year": 2019,
+        "description": "High-quality printer 117 from Sony, perfect for everyday use.",
+        "stock": 100
+    },
+    {
+        "id": 118,
+        "category": "Kitchen",
+        "name": "Bicycle 118",
+        "price": 4846.82,
+        "brand": "Fossil",
+        "year": 2023,
+        "description": "High-quality bicycle 118 from Fossil, perfect for everyday use.",
+        "stock": 78
+    },
+    {
+        "id": 119,
+        "category": "Electronics",
+        "name": "Sofa 119",
+        "price": 289.11,
+        "brand": "Philips",
+        "year": 2024,
+        "description": "High-quality sofa 119 from Philips, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 120,
+        "category": "Luggage",
+        "name": "Jacket 120",
+        "price": 3574.78,
+        "brand": "Zara",
+        "year": 2022,
+        "description": "High-quality jacket 120 from Zara, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 121,
+        "category": "Luggage",
+        "name": "Jacket 121",
+        "price": 1105.99,
+        "brand": "Samsung",
+        "year": 2021,
+        "description": "High-quality jacket 121 from Samsung, perfect for everyday use.",
+        "stock": 81
+    },
+    {
+        "id": 122,
+        "category": "Sports",
+        "name": "Tablet 122",
+        "price": 4674.8,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality tablet 122 from Dell, perfect for everyday use.",
+        "stock": 54
+    },
+    {
+        "id": 123,
+        "category": "Watches",
+        "name": "Shoes 123",
+        "price": 899.6,
+        "brand": "Dell",
+        "year": 2021,
+        "description": "High-quality shoes 123 from Dell, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 124,
+        "category": "Fitness",
+        "name": "Sofa 124",
+        "price": 2037.8,
+        "brand": "Philips",
+        "year": 2019,
+        "description": "High-quality sofa 124 from Philips, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 125,
+        "category": "Watches",
+        "name": "Monitor 125",
+        "price": 2092.78,
+        "brand": "Apple",
+        "year": 2024,
+        "description": "High-quality monitor 125 from Apple, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 126,
+        "category": "Baby",
+        "name": "Keyboard 126",
+        "price": 1997.4,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality keyboard 126 from Apple, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 127,
+        "category": "Tools",
+        "name": "Smartphone 127",
+        "price": 4973.01,
+        "brand": "Fossil",
+        "year": 2019,
+        "description": "High-quality smartphone 127 from Fossil, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 128,
+        "category": "Baby",
+        "name": "Charger 128",
+        "price": 2311.04,
+        "brand": "LG",
+        "year": 2019,
+        "description": "High-quality charger 128 from LG, perfect for everyday use.",
+        "stock": 75
+    },
+    {
+        "id": 129,
+        "category": "Groceries",
+        "name": "Sunglasses 129",
+        "price": 939.72,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality sunglasses 129 from Rolex, perfect for everyday use.",
+        "stock": 63
+    },
+    {
+        "id": 130,
+        "category": "Toys",
+        "name": "Sofa 130",
+        "price": 1403.31,
+        "brand": "Microsoft",
+        "year": 2019,
+        "description": "High-quality sofa 130 from Microsoft, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 131,
+        "category": "Fashion",
+        "name": "Sunglasses 131",
+        "price": 2097.71,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality sunglasses 131 from Dell, perfect for everyday use.",
+        "stock": 38
+    },
+    {
+        "id": 132,
+        "category": "Health",
+        "name": "Camera 132",
+        "price": 1342.54,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality camera 132 from Dell, perfect for everyday use.",
+        "stock": 10
+    },
+    {
+        "id": 133,
+        "category": "Beauty",
+        "name": "Charger 133",
+        "price": 1841.05,
+        "brand": "HP",
+        "year": 2019,
+        "description": "High-quality charger 133 from HP, perfect for everyday use.",
+        "stock": 48
+    },
+    {
+        "id": 134,
+        "category": "Electronics",
+        "name": "Bicycle 134",
+        "price": 2304.12,
+        "brand": "Apple",
+        "year": 2018,
+        "description": "High-quality bicycle 134 from Apple, perfect for everyday use.",
+        "stock": 43
+    },
+    {
+        "id": 135,
+        "category": "Pets",
+        "name": "Charger 135",
+        "price": 4343.48,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality charger 135 from Dell, perfect for everyday use.",
+        "stock": 25
+    },
+    {
+        "id": 136,
+        "category": "Toys",
+        "name": "Printer 136",
+        "price": 932.17,
+        "brand": "Samsung",
+        "year": 2025,
+        "description": "High-quality printer 136 from Samsung, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 137,
+        "category": "Sports",
+        "name": "Ring 137",
+        "price": 2109.84,
+        "brand": "Panasonic",
+        "year": 2022,
+        "description": "High-quality ring 137 from Panasonic, perfect for everyday use.",
+        "stock": 88
+    },
+    {
+        "id": 138,
+        "category": "Music",
+        "name": "Ring 138",
+        "price": 4229.67,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality ring 138 from Apple, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 139,
+        "category": "Fitness",
+        "name": "Jacket 139",
+        "price": 117.76,
+        "brand": "LG",
+        "year": 2021,
+        "description": "High-quality jacket 139 from LG, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 140,
+        "category": "Garden",
+        "name": "Bicycle 140",
+        "price": 499.1,
+        "brand": "Microsoft",
+        "year": 2021,
+        "description": "High-quality bicycle 140 from Microsoft, perfect for everyday use.",
+        "stock": 37
+    },
+    {
+        "id": 141,
+        "category": "Kitchen",
+        "name": "Monitor 141",
+        "price": 4919.1,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality monitor 141 from HP, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 142,
+        "category": "Accessories",
+        "name": "Jeans 142",
+        "price": 834.16,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality jeans 142 from Dell, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 143,
+        "category": "Kitchen",
+        "name": "Gaming Console 143",
+        "price": 2028.85,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality gaming console 143 from Dell, perfect for everyday use.",
+        "stock": 39
+    },
+    {
+        "id": 144,
+        "category": "Health",
+        "name": "Mouse 144",
+        "price": 3468.53,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality mouse 144 from Zara, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 145,
+        "category": "Stationery",
+        "name": "Mouse 145",
+        "price": 4218.25,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality mouse 145 from Nikon, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 146,
+        "category": "Garden",
+        "name": "Toy Car 146",
+        "price": 3243.63,
+        "brand": "Sony",
+        "year": 2021,
+        "description": "High-quality toy car 146 from Sony, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 147,
+        "category": "Health",
+        "name": "Headphones 147",
+        "price": 1035.65,
+        "brand": "Canon",
+        "year": 2021,
+        "description": "High-quality headphones 147 from Canon, perfect for everyday use.",
+        "stock": 63
+    },
+    {
+        "id": 148,
+        "category": "Fashion",
+        "name": "Bicycle 148",
+        "price": 370.71,
+        "brand": "Panasonic",
+        "year": 2025,
+        "description": "High-quality bicycle 148 from Panasonic, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 149,
+        "category": "Pets",
+        "name": "Air Conditioner 149",
+        "price": 1812.41,
+        "brand": "Zara",
+        "year": 2020,
+        "description": "High-quality air conditioner 149 from Zara, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 150,
+        "category": "Outdoors",
+        "name": "Desk Lamp 150",
+        "price": 1596.79,
+        "brand": "HP",
+        "year": 2021,
+        "description": "High-quality desk lamp 150 from HP, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 151,
+        "category": "Watches",
+        "name": "Refrigerator 151",
+        "price": 361.19,
+        "brand": "Sony",
+        "year": 2019,
+        "description": "High-quality refrigerator 151 from Sony, perfect for everyday use.",
+        "stock": 27
+    },
+    {
+        "id": 152,
+        "category": "Tools",
+        "name": "Refrigerator 152",
+        "price": 481.68,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality refrigerator 152 from Dell, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 153,
+        "category": "Pets",
+        "name": "Book 153",
+        "price": 3690.25,
+        "brand": "Fossil",
+        "year": 2022,
+        "description": "High-quality book 153 from Fossil, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 154,
+        "category": "Pets",
+        "name": "Monitor 154",
+        "price": 1855.39,
+        "brand": "Nike",
+        "year": 2024,
+        "description": "High-quality monitor 154 from Nike, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 155,
+        "category": "Outdoors",
+        "name": "Gaming Console 155",
+        "price": 315.54,
+        "brand": "Nike",
+        "year": 2023,
+        "description": "High-quality gaming console 155 from Nike, perfect for everyday use.",
+        "stock": 97
+    },
+    {
+        "id": 156,
+        "category": "Kitchen",
+        "name": "Tablet 156",
+        "price": 2825.86,
+        "brand": "HP",
+        "year": 2023,
+        "description": "High-quality tablet 156 from HP, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 157,
+        "category": "Garden",
+        "name": "Printer 157",
+        "price": 1741.76,
+        "brand": "Asus",
+        "year": 2020,
+        "description": "High-quality printer 157 from Asus, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 158,
+        "category": "Electronics",
+        "name": "Ring 158",
+        "price": 793.26,
+        "brand": "Rolex",
+        "year": 2025,
+        "description": "High-quality ring 158 from Rolex, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 159,
+        "category": "Garden",
+        "name": "Air Conditioner 159",
+        "price": 2255.01,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality air conditioner 159 from Nikon, perfect for everyday use.",
+        "stock": 67
+    },
+    {
+        "id": 160,
+        "category": "HomeAppliances",
+        "name": "Book 160",
+        "price": 4158.74,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality book 160 from Fossil, perfect for everyday use.",
+        "stock": 17
+    },
+    {
+        "id": 161,
+        "category": "Kitchen",
+        "name": "Jacket 161",
+        "price": 557.45,
+        "brand": "Adidas",
+        "year": 2018,
+        "description": "High-quality jacket 161 from Adidas, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 162,
+        "category": "Stationery",
+        "name": "T-Shirt 162",
+        "price": 2478.38,
+        "brand": "Asus",
+        "year": 2021,
+        "description": "High-quality t-shirt 162 from Asus, perfect for everyday use.",
+        "stock": 80
+    },
+    {
+        "id": 163,
+        "category": "Gaming",
+        "name": "Microwave 163",
+        "price": 2198.53,
+        "brand": "Philips",
+        "year": 2022,
+        "description": "High-quality microwave 163 from Philips, perfect for everyday use.",
+        "stock": 92
+    },
+    {
+        "id": 164,
+        "category": "Sports",
+        "name": "Backpack 164",
+        "price": 3858.65,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality backpack 164 from Zara, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 165,
+        "category": "Sports",
+        "name": "Printer 165",
+        "price": 3903.22,
+        "brand": "Apple",
+        "year": 2019,
+        "description": "High-quality printer 165 from Apple, perfect for everyday use.",
+        "stock": 81
+    },
+    {
+        "id": 166,
+        "category": "Books",
+        "name": "Book 166",
+        "price": 1464.72,
+        "brand": "Rolex",
+        "year": 2024,
+        "description": "High-quality book 166 from Rolex, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 167,
+        "category": "Watches",
+        "name": "Speaker 167",
+        "price": 1913.67,
+        "brand": "Apple",
+        "year": 2018,
+        "description": "High-quality speaker 167 from Apple, perfect for everyday use.",
+        "stock": 29
+    },
+    {
+        "id": 168,
+        "category": "Toys",
+        "name": "Air Conditioner 168",
+        "price": 1998.67,
+        "brand": "Adidas",
+        "year": 2022,
+        "description": "High-quality air conditioner 168 from Adidas, perfect for everyday use.",
+        "stock": 17
+    },
+    {
+        "id": 169,
+        "category": "Garden",
+        "name": "Speaker 169",
+        "price": 3731.9,
+        "brand": "Samsung",
+        "year": 2020,
+        "description": "High-quality speaker 169 from Samsung, perfect for everyday use.",
+        "stock": 51
+    },
+    {
+        "id": 170,
+        "category": "Office",
+        "name": "T-Shirt 170",
+        "price": 3439.38,
+        "brand": "Nike",
+        "year": 2025,
+        "description": "High-quality t-shirt 170 from Nike, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 171,
+        "category": "Tools",
+        "name": "Mouse 171",
+        "price": 1825.31,
+        "brand": "Zara",
+        "year": 2022,
+        "description": "High-quality mouse 171 from Zara, perfect for everyday use.",
+        "stock": 6
+    },
+    {
+        "id": 172,
+        "category": "Shoes",
+        "name": "Mouse 172",
+        "price": 2199.45,
+        "brand": "Nike",
+        "year": 2021,
+        "description": "High-quality mouse 172 from Nike, perfect for everyday use.",
+        "stock": 31
+    },
+    {
+        "id": 173,
+        "category": "Garden",
+        "name": "Backpack 173",
+        "price": 2909.23,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality backpack 173 from Rolex, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 174,
+        "category": "Furniture",
+        "name": "Smartphone 174",
+        "price": 3527.11,
+        "brand": "Nike",
+        "year": 2024,
+        "description": "High-quality smartphone 174 from Nike, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 175,
+        "category": "Groceries",
+        "name": "Charger 175",
+        "price": 1882.71,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality charger 175 from Dell, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 176,
+        "category": "Shoes",
+        "name": "Tablet 176",
+        "price": 156.77,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality tablet 176 from Rolex, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 177,
+        "category": "Beauty",
+        "name": "Tablet 177",
+        "price": 2656.64,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality tablet 177 from Puma, perfect for everyday use.",
+        "stock": 17
+    },
+    {
+        "id": 178,
+        "category": "Groceries",
+        "name": "T-Shirt 178",
+        "price": 2684.43,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality t-shirt 178 from Adidas, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 179,
+        "category": "Toys",
+        "name": "Bicycle 179",
+        "price": 237.79,
+        "brand": "Microsoft",
+        "year": 2023,
+        "description": "High-quality bicycle 179 from Microsoft, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 180,
+        "category": "Furniture",
+        "name": "Monitor 180",
+        "price": 2261.61,
+        "brand": "HP",
+        "year": 2021,
+        "description": "High-quality monitor 180 from HP, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 181,
+        "category": "HomeAppliances",
+        "name": "Shoes 181",
+        "price": 1889.36,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality shoes 181 from Apple, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 182,
+        "category": "Beauty",
+        "name": "Charger 182",
+        "price": 1474.07,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality charger 182 from Fossil, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 183,
+        "category": "Electronics",
+        "name": "Toy Car 183",
+        "price": 3795.82,
+        "brand": "Rolex",
+        "year": 2022,
+        "description": "High-quality toy car 183 from Rolex, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 184,
+        "category": "Garden",
+        "name": "Smartphone 184",
+        "price": 2670.74,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality smartphone 184 from Microsoft, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 185,
+        "category": "Books",
+        "name": "Jeans 185",
+        "price": 1753.3,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality jeans 185 from Canon, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 186,
+        "category": "Pets",
+        "name": "Watch 186",
+        "price": 1103.83,
+        "brand": "Puma",
+        "year": 2022,
+        "description": "High-quality watch 186 from Puma, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 187,
+        "category": "Clothing",
+        "name": "Mouse 187",
+        "price": 1510.56,
+        "brand": "Bosch",
+        "year": 2025,
+        "description": "High-quality mouse 187 from Bosch, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 188,
+        "category": "Books",
+        "name": "Laptop 188",
+        "price": 2848.24,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality laptop 188 from Rolex, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 189,
+        "category": "Stationery",
+        "name": "Headphones 189",
+        "price": 2899.16,
+        "brand": "LG",
+        "year": 2025,
+        "description": "High-quality headphones 189 from LG, perfect for everyday use.",
+        "stock": 69
+    },
+    {
+        "id": 190,
+        "category": "Groceries",
+        "name": "Monitor 190",
+        "price": 2565.28,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality monitor 190 from Nikon, perfect for everyday use.",
+        "stock": 81
+    },
+    {
+        "id": 191,
+        "category": "Accessories",
+        "name": "Jeans 191",
+        "price": 3680.16,
+        "brand": "Sony",
+        "year": 2018,
+        "description": "High-quality jeans 191 from Sony, perfect for everyday use.",
+        "stock": 43
+    },
+    {
+        "id": 192,
+        "category": "Garden",
+        "name": "Book 192",
+        "price": 1287.47,
+        "brand": "Nikon",
+        "year": 2023,
+        "description": "High-quality book 192 from Nikon, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 193,
+        "category": "Groceries",
+        "name": "Ring 193",
+        "price": 4119.35,
+        "brand": "LG",
+        "year": 2023,
+        "description": "High-quality ring 193 from LG, perfect for everyday use.",
+        "stock": 43
+    },
+    {
+        "id": 194,
+        "category": "Books",
+        "name": "Tablet 194",
+        "price": 3114.13,
+        "brand": "Samsung",
+        "year": 2020,
+        "description": "High-quality tablet 194 from Samsung, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 195,
+        "category": "Office",
+        "name": "Air Conditioner 195",
+        "price": 1946.78,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality air conditioner 195 from Rolex, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 196,
+        "category": "Stationery",
+        "name": "Laptop 196",
+        "price": 601.7,
+        "brand": "Canon",
+        "year": 2022,
+        "description": "High-quality laptop 196 from Canon, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 197,
+        "category": "Music",
+        "name": "Microwave 197",
+        "price": 3405.26,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality microwave 197 from Nikon, perfect for everyday use.",
+        "stock": 96
+    },
+    {
+        "id": 198,
+        "category": "Pets",
+        "name": "Air Conditioner 198",
+        "price": 3335.14,
+        "brand": "HP",
+        "year": 2024,
+        "description": "High-quality air conditioner 198 from HP, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 199,
+        "category": "Automotive",
+        "name": "Ring 199",
+        "price": 3974.01,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality ring 199 from Sony, perfect for everyday use.",
+        "stock": 41
+    },
+    {
+        "id": 200,
+        "category": "Cameras",
+        "name": "Shoes 200",
+        "price": 3416.2,
+        "brand": "Sony",
+        "year": 2021,
+        "description": "High-quality shoes 200 from Sony, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 201,
+        "category": "Beauty",
+        "name": "Smartphone 201",
+        "price": 4604.54,
+        "brand": "Microsoft",
+        "year": 2021,
+        "description": "High-quality smartphone 201 from Microsoft, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 202,
+        "category": "Books",
+        "name": "Air Conditioner 202",
+        "price": 3682.34,
+        "brand": "Panasonic",
+        "year": 2018,
+        "description": "High-quality air conditioner 202 from Panasonic, perfect for everyday use.",
+        "stock": 98
+    },
+    {
+        "id": 203,
+        "category": "Cameras",
+        "name": "Backpack 203",
+        "price": 4581.65,
+        "brand": "Dell",
+        "year": 2019,
+        "description": "High-quality backpack 203 from Dell, perfect for everyday use.",
+        "stock": 30
+    },
+    {
+        "id": 204,
+        "category": "Stationery",
+        "name": "Smartphone 204",
+        "price": 2756.59,
+        "brand": "Philips",
+        "year": 2018,
+        "description": "High-quality smartphone 204 from Philips, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 205,
+        "category": "Toys",
+        "name": "Ring 205",
+        "price": 1937.35,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality ring 205 from Dell, perfect for everyday use.",
+        "stock": 61
+    },
+    {
+        "id": 206,
+        "category": "Clothing",
+        "name": "Shoes 206",
+        "price": 4149.68,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality shoes 206 from Apple, perfect for everyday use.",
+        "stock": 96
+    },
+    {
+        "id": 207,
+        "category": "Watches",
+        "name": "Mouse 207",
+        "price": 2804.16,
+        "brand": "Zara",
+        "year": 2021,
+        "description": "High-quality mouse 207 from Zara, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 208,
+        "category": "Fitness",
+        "name": "Gaming Console 208",
+        "price": 1591.01,
+        "brand": "Zara",
+        "year": 2020,
+        "description": "High-quality gaming console 208 from Zara, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 209,
+        "category": "Outdoors",
+        "name": "Desk Lamp 209",
+        "price": 816.67,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality desk lamp 209 from Lenovo, perfect for everyday use.",
+        "stock": 16
+    },
+    {
+        "id": 210,
+        "category": "Furniture",
+        "name": "T-Shirt 210",
+        "price": 417.62,
+        "brand": "Adidas",
+        "year": 2022,
+        "description": "High-quality t-shirt 210 from Adidas, perfect for everyday use.",
+        "stock": 88
+    },
+    {
+        "id": 211,
+        "category": "Sports",
+        "name": "Camera 211",
+        "price": 1981.78,
+        "brand": "Asus",
+        "year": 2023,
+        "description": "High-quality camera 211 from Asus, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 212,
+        "category": "Cameras",
+        "name": "Book 212",
+        "price": 2388.02,
+        "brand": "Lenovo",
+        "year": 2025,
+        "description": "High-quality book 212 from Lenovo, perfect for everyday use.",
+        "stock": 56
+    },
+    {
+        "id": 213,
+        "category": "Electronics",
+        "name": "Gaming Console 213",
+        "price": 3894.11,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality gaming console 213 from Puma, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 214,
+        "category": "Pets",
+        "name": "Speaker 214",
+        "price": 1805.17,
+        "brand": "Nikon",
+        "year": 2025,
+        "description": "High-quality speaker 214 from Nikon, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 215,
+        "category": "Furniture",
+        "name": "Perfume 215",
+        "price": 3747.11,
+        "brand": "Adidas",
+        "year": 2022,
+        "description": "High-quality perfume 215 from Adidas, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 216,
+        "category": "Sports",
+        "name": "Toy Car 216",
+        "price": 4783.91,
+        "brand": "Philips",
+        "year": 2023,
+        "description": "High-quality toy car 216 from Philips, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 217,
+        "category": "Luggage",
+        "name": "Gaming Console 217",
+        "price": 3178.0,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality gaming console 217 from Lenovo, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 218,
+        "category": "Furniture",
+        "name": "Camera 218",
+        "price": 998.13,
+        "brand": "LG",
+        "year": 2020,
+        "description": "High-quality camera 218 from LG, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 219,
+        "category": "Cameras",
+        "name": "Sofa 219",
+        "price": 690.61,
+        "brand": "Microsoft",
+        "year": 2022,
+        "description": "High-quality sofa 219 from Microsoft, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 220,
+        "category": "Outdoors",
+        "name": "Jeans 220",
+        "price": 885.55,
+        "brand": "Asus",
+        "year": 2025,
+        "description": "High-quality jeans 220 from Asus, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 221,
+        "category": "Jewelry",
+        "name": "Air Conditioner 221",
+        "price": 2505.42,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality air conditioner 221 from Apple, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 222,
+        "category": "Fashion",
+        "name": "Book 222",
+        "price": 950.21,
+        "brand": "Adidas",
+        "year": 2023,
+        "description": "High-quality book 222 from Adidas, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 223,
+        "category": "Garden",
+        "name": "Microwave 223",
+        "price": 780.41,
+        "brand": "Sony",
+        "year": 2021,
+        "description": "High-quality microwave 223 from Sony, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 224,
+        "category": "Health",
+        "name": "Ring 224",
+        "price": 1430.04,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality ring 224 from Nikon, perfect for everyday use.",
+        "stock": 36
+    },
+    {
+        "id": 225,
+        "category": "Baby",
+        "name": "Perfume 225",
+        "price": 1995.77,
+        "brand": "Sony",
+        "year": 2019,
+        "description": "High-quality perfume 225 from Sony, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 226,
+        "category": "Office",
+        "name": "Keyboard 226",
+        "price": 4010.72,
+        "brand": "Rolex",
+        "year": 2020,
+        "description": "High-quality keyboard 226 from Rolex, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 227,
+        "category": "Baby",
+        "name": "Mouse 227",
+        "price": 4478.83,
+        "brand": "Bosch",
+        "year": 2022,
+        "description": "High-quality mouse 227 from Bosch, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 228,
+        "category": "Garden",
+        "name": "Book 228",
+        "price": 4866.71,
+        "brand": "HP",
+        "year": 2020,
+        "description": "High-quality book 228 from HP, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 229,
+        "category": "Shoes",
+        "name": "Ring 229",
+        "price": 1164.59,
+        "brand": "Microsoft",
+        "year": 2021,
+        "description": "High-quality ring 229 from Microsoft, perfect for everyday use.",
+        "stock": 38
+    },
+    {
+        "id": 230,
+        "category": "Lighting",
+        "name": "Tablet 230",
+        "price": 4719.88,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality tablet 230 from Sony, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 231,
+        "category": "Clothing",
+        "name": "Bicycle 231",
+        "price": 2725.1,
+        "brand": "Asus",
+        "year": 2020,
+        "description": "High-quality bicycle 231 from Asus, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 232,
+        "category": "Electronics",
+        "name": "Shoes 232",
+        "price": 371.82,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality shoes 232 from Apple, perfect for everyday use.",
+        "stock": 41
+    },
+    {
+        "id": 233,
+        "category": "Toys",
+        "name": "Ring 233",
+        "price": 2274.33,
+        "brand": "Adidas",
+        "year": 2021,
+        "description": "High-quality ring 233 from Adidas, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 234,
+        "category": "Office",
+        "name": "Mouse 234",
+        "price": 3462.45,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality mouse 234 from Rolex, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 235,
+        "category": "Office",
+        "name": "Desk Lamp 235",
+        "price": 4849.33,
+        "brand": "Puma",
+        "year": 2019,
+        "description": "High-quality desk lamp 235 from Puma, perfect for everyday use.",
+        "stock": 75
+    },
+    {
+        "id": 236,
+        "category": "Shoes",
+        "name": "Smartphone 236",
+        "price": 1139.63,
+        "brand": "Zara",
+        "year": 2021,
+        "description": "High-quality smartphone 236 from Zara, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 237,
+        "category": "Kitchen",
+        "name": "Washing Machine 237",
+        "price": 2212.39,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality washing machine 237 from Puma, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 238,
+        "category": "Fashion",
+        "name": "Monitor 238",
+        "price": 3365.82,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality monitor 238 from LG, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 239,
+        "category": "Shoes",
+        "name": "Laptop 239",
+        "price": 923.72,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality laptop 239 from Sony, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 240,
+        "category": "Music",
+        "name": "Printer 240",
+        "price": 1335.36,
+        "brand": "Apple",
+        "year": 2019,
+        "description": "High-quality printer 240 from Apple, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 241,
+        "category": "Automotive",
+        "name": "Camera 241",
+        "price": 2642.09,
+        "brand": "Asus",
+        "year": 2024,
+        "description": "High-quality camera 241 from Asus, perfect for everyday use.",
+        "stock": 10
+    },
+    {
+        "id": 242,
+        "category": "Tools",
+        "name": "Printer 242",
+        "price": 1141.41,
+        "brand": "Zara",
+        "year": 2022,
+        "description": "High-quality printer 242 from Zara, perfect for everyday use.",
+        "stock": 21
+    },
+    {
+        "id": 243,
+        "category": "Lighting",
+        "name": "Headphones 243",
+        "price": 3441.55,
+        "brand": "Samsung",
+        "year": 2022,
+        "description": "High-quality headphones 243 from Samsung, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 244,
+        "category": "Gaming",
+        "name": "Sofa 244",
+        "price": 812.27,
+        "brand": "LG",
+        "year": 2019,
+        "description": "High-quality sofa 244 from LG, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 245,
+        "category": "Gaming",
+        "name": "Speaker 245",
+        "price": 4896.14,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality speaker 245 from LG, perfect for everyday use.",
+        "stock": 39
+    },
+    {
+        "id": 246,
+        "category": "Cameras",
+        "name": "Keyboard 246",
+        "price": 4182.6,
+        "brand": "Nikon",
+        "year": 2024,
+        "description": "High-quality keyboard 246 from Nikon, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 247,
+        "category": "Kitchen",
+        "name": "Charger 247",
+        "price": 3384.86,
+        "brand": "Fossil",
+        "year": 2019,
+        "description": "High-quality charger 247 from Fossil, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 248,
+        "category": "Health",
+        "name": "Refrigerator 248",
+        "price": 342.31,
+        "brand": "Apple",
+        "year": 2025,
+        "description": "High-quality refrigerator 248 from Apple, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 249,
+        "category": "Outdoors",
+        "name": "Book 249",
+        "price": 3119.91,
+        "brand": "LG",
+        "year": 2023,
+        "description": "High-quality book 249 from LG, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 250,
+        "category": "Sports",
+        "name": "Speaker 250",
+        "price": 2737.98,
+        "brand": "Puma",
+        "year": 2025,
+        "description": "High-quality speaker 250 from Puma, perfect for everyday use.",
+        "stock": 69
+    },
+    {
+        "id": 251,
+        "category": "Health",
+        "name": "Washing Machine 251",
+        "price": 517.27,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality washing machine 251 from Zara, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 252,
+        "category": "Clothing",
+        "name": "Laptop 252",
+        "price": 1877.78,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality laptop 252 from Puma, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 253,
+        "category": "Automotive",
+        "name": "Bicycle 253",
+        "price": 4642.45,
+        "brand": "Rolex",
+        "year": 2020,
+        "description": "High-quality bicycle 253 from Rolex, perfect for everyday use.",
+        "stock": 24
+    },
+    {
+        "id": 254,
+        "category": "Office",
+        "name": "Jeans 254",
+        "price": 3644.6,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality jeans 254 from Puma, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 255,
+        "category": "Jewelry",
+        "name": "Desk Lamp 255",
+        "price": 2786.24,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality desk lamp 255 from Canon, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 256,
+        "category": "Pets",
+        "name": "Watch 256",
+        "price": 231.25,
+        "brand": "Puma",
+        "year": 2025,
+        "description": "High-quality watch 256 from Puma, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 257,
+        "category": "Shoes",
+        "name": "Mouse 257",
+        "price": 3204.71,
+        "brand": "Bosch",
+        "year": 2025,
+        "description": "High-quality mouse 257 from Bosch, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 258,
+        "category": "Fashion",
+        "name": "Ring 258",
+        "price": 2874.25,
+        "brand": "Rolex",
+        "year": 2019,
+        "description": "High-quality ring 258 from Rolex, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 259,
+        "category": "Automotive",
+        "name": "Shoes 259",
+        "price": 4766.59,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality shoes 259 from Samsung, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 260,
+        "category": "Sports",
+        "name": "Backpack 260",
+        "price": 179.76,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality backpack 260 from Puma, perfect for everyday use.",
+        "stock": 26
+    },
+    {
+        "id": 261,
+        "category": "Garden",
+        "name": "Speaker 261",
+        "price": 408.21,
+        "brand": "Adidas",
+        "year": 2025,
+        "description": "High-quality speaker 261 from Adidas, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 262,
+        "category": "HomeAppliances",
+        "name": "T-Shirt 262",
+        "price": 2819.16,
+        "brand": "Rolex",
+        "year": 2019,
+        "description": "High-quality t-shirt 262 from Rolex, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 263,
+        "category": "Garden",
+        "name": "Laptop 263",
+        "price": 747.26,
+        "brand": "Philips",
+        "year": 2024,
+        "description": "High-quality laptop 263 from Philips, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 264,
+        "category": "Pets",
+        "name": "Watch 264",
+        "price": 2518.0,
+        "brand": "Philips",
+        "year": 2020,
+        "description": "High-quality watch 264 from Philips, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 265,
+        "category": "Watches",
+        "name": "T-Shirt 265",
+        "price": 2230.96,
+        "brand": "Fossil",
+        "year": 2018,
+        "description": "High-quality t-shirt 265 from Fossil, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 266,
+        "category": "Shoes",
+        "name": "Sofa 266",
+        "price": 3549.15,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality sofa 266 from Sony, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 267,
+        "category": "Kitchen",
+        "name": "Microwave 267",
+        "price": 3777.89,
+        "brand": "Samsung",
+        "year": 2022,
+        "description": "High-quality microwave 267 from Samsung, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 268,
+        "category": "Baby",
+        "name": "Jeans 268",
+        "price": 140.07,
+        "brand": "Microsoft",
+        "year": 2020,
+        "description": "High-quality jeans 268 from Microsoft, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 269,
+        "category": "Jewelry",
+        "name": "Smartphone 269",
+        "price": 3125.7,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality smartphone 269 from Puma, perfect for everyday use.",
+        "stock": 30
+    },
+    {
+        "id": 270,
+        "category": "Pets",
+        "name": "Book 270",
+        "price": 4430.47,
+        "brand": "Rolex",
+        "year": 2018,
+        "description": "High-quality book 270 from Rolex, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 271,
+        "category": "Furniture",
+        "name": "Refrigerator 271",
+        "price": 2005.21,
+        "brand": "Rolex",
+        "year": 2019,
+        "description": "High-quality refrigerator 271 from Rolex, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 272,
+        "category": "Jewelry",
+        "name": "Laptop 272",
+        "price": 149.41,
+        "brand": "Nikon",
+        "year": 2023,
+        "description": "High-quality laptop 272 from Nikon, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 273,
+        "category": "Accessories",
+        "name": "Microwave 273",
+        "price": 4389.51,
+        "brand": "HP",
+        "year": 2023,
+        "description": "High-quality microwave 273 from HP, perfect for everyday use.",
+        "stock": 56
+    },
+    {
+        "id": 274,
+        "category": "Baby",
+        "name": "Keyboard 274",
+        "price": 414.55,
+        "brand": "Sony",
+        "year": 2023,
+        "description": "High-quality keyboard 274 from Sony, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 275,
+        "category": "Watches",
+        "name": "Air Conditioner 275",
+        "price": 2570.66,
+        "brand": "HP",
+        "year": 2018,
+        "description": "High-quality air conditioner 275 from HP, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 276,
+        "category": "Garden",
+        "name": "Printer 276",
+        "price": 950.31,
+        "brand": "Nikon",
+        "year": 2025,
+        "description": "High-quality printer 276 from Nikon, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 277,
+        "category": "Music",
+        "name": "Perfume 277",
+        "price": 1595.84,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality perfume 277 from Nikon, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 278,
+        "category": "Pets",
+        "name": "Laptop 278",
+        "price": 212.18,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "High-quality laptop 278 from Panasonic, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 279,
+        "category": "Pets",
+        "name": "Washing Machine 279",
+        "price": 3515.69,
+        "brand": "Nike",
+        "year": 2019,
+        "description": "High-quality washing machine 279 from Nike, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 280,
+        "category": "Groceries",
+        "name": "Ring 280",
+        "price": 3554.84,
+        "brand": "Apple",
+        "year": 2021,
+        "description": "High-quality ring 280 from Apple, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 281,
+        "category": "Electronics",
+        "name": "Bicycle 281",
+        "price": 2709.22,
+        "brand": "Bosch",
+        "year": 2018,
+        "description": "High-quality bicycle 281 from Bosch, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 282,
+        "category": "Fitness",
+        "name": "Jeans 282",
+        "price": 3665.67,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality jeans 282 from Microsoft, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 283,
+        "category": "Furniture",
+        "name": "Sofa 283",
+        "price": 3084.31,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality sofa 283 from Zara, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 284,
+        "category": "Health",
+        "name": "Charger 284",
+        "price": 4679.59,
+        "brand": "Philips",
+        "year": 2021,
+        "description": "High-quality charger 284 from Philips, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 285,
+        "category": "Electronics",
+        "name": "Washing Machine 285",
+        "price": 850.97,
+        "brand": "Dell",
+        "year": 2019,
+        "description": "High-quality washing machine 285 from Dell, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 286,
+        "category": "Toys",
+        "name": "Keyboard 286",
+        "price": 2888.96,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality keyboard 286 from Sony, perfect for everyday use.",
+        "stock": 93
+    },
+    {
+        "id": 287,
+        "category": "Jewelry",
+        "name": "Ring 287",
+        "price": 1686.24,
+        "brand": "Dell",
+        "year": 2022,
+        "description": "High-quality ring 287 from Dell, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 288,
+        "category": "Groceries",
+        "name": "Ring 288",
+        "price": 1084.23,
+        "brand": "LG",
+        "year": 2018,
+        "description": "High-quality ring 288 from LG, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 289,
+        "category": "Cameras",
+        "name": "Sofa 289",
+        "price": 3449.08,
+        "brand": "Apple",
+        "year": 2023,
+        "description": "High-quality sofa 289 from Apple, perfect for everyday use.",
+        "stock": 26
+    },
+    {
+        "id": 290,
+        "category": "Books",
+        "name": "Backpack 290",
+        "price": 3464.04,
+        "brand": "Adidas",
+        "year": 2019,
+        "description": "High-quality backpack 290 from Adidas, perfect for everyday use.",
+        "stock": 39
+    },
+    {
+        "id": 291,
+        "category": "Music",
+        "name": "Perfume 291",
+        "price": 2881.06,
+        "brand": "Philips",
+        "year": 2025,
+        "description": "High-quality perfume 291 from Philips, perfect for everyday use.",
+        "stock": 92
+    },
+    {
+        "id": 292,
+        "category": "Outdoors",
+        "name": "Ring 292",
+        "price": 2069.94,
+        "brand": "Adidas",
+        "year": 2019,
+        "description": "High-quality ring 292 from Adidas, perfect for everyday use.",
+        "stock": 98
+    },
+    {
+        "id": 293,
+        "category": "Cameras",
+        "name": "Monitor 293",
+        "price": 3184.59,
+        "brand": "Nikon",
+        "year": 2021,
+        "description": "High-quality monitor 293 from Nikon, perfect for everyday use.",
+        "stock": 48
+    },
+    {
+        "id": 294,
+        "category": "Toys",
+        "name": "Perfume 294",
+        "price": 1863.95,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality perfume 294 from LG, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 295,
+        "category": "Pets",
+        "name": "Shoes 295",
+        "price": 4802.29,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality shoes 295 from Puma, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 296,
+        "category": "Kitchen",
+        "name": "Monitor 296",
+        "price": 1666.08,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality monitor 296 from Zara, perfect for everyday use.",
+        "stock": 41
+    },
+    {
+        "id": 297,
+        "category": "Pets",
+        "name": "Printer 297",
+        "price": 4844.76,
+        "brand": "Nikon",
+        "year": 2023,
+        "description": "High-quality printer 297 from Nikon, perfect for everyday use.",
+        "stock": 78
+    },
+    {
+        "id": 298,
+        "category": "Fashion",
+        "name": "Bicycle 298",
+        "price": 862.42,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality bicycle 298 from Fossil, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 299,
+        "category": "Fitness",
+        "name": "Mouse 299",
+        "price": 1321.4,
+        "brand": "Bosch",
+        "year": 2025,
+        "description": "High-quality mouse 299 from Bosch, perfect for everyday use.",
+        "stock": 68
+    },
+    {
+        "id": 300,
+        "category": "Fashion",
+        "name": "Camera 300",
+        "price": 1255.36,
+        "brand": "Samsung",
+        "year": 2018,
+        "description": "High-quality camera 300 from Samsung, perfect for everyday use.",
+        "stock": 29
+    },
+    {
+        "id": 301,
+        "category": "Gaming",
+        "name": "Tablet 301",
+        "price": 510.37,
+        "brand": "Lenovo",
+        "year": 2024,
+        "description": "High-quality tablet 301 from Lenovo, perfect for everyday use.",
+        "stock": 97
+    },
+    {
+        "id": 302,
+        "category": "Clothing",
+        "name": "Jeans 302",
+        "price": 1973.32,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality jeans 302 from Canon, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 303,
+        "category": "Baby",
+        "name": "Tablet 303",
+        "price": 732.96,
+        "brand": "Microsoft",
+        "year": 2020,
+        "description": "High-quality tablet 303 from Microsoft, perfect for everyday use.",
+        "stock": 11
+    },
+    {
+        "id": 304,
+        "category": "Jewelry",
+        "name": "Watch 304",
+        "price": 1134.77,
+        "brand": "Nike",
+        "year": 2018,
+        "description": "High-quality watch 304 from Nike, perfect for everyday use.",
+        "stock": 87
+    },
+    {
+        "id": 305,
+        "category": "Shoes",
+        "name": "Keyboard 305",
+        "price": 594.37,
+        "brand": "Rolex",
+        "year": 2025,
+        "description": "High-quality keyboard 305 from Rolex, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 306,
+        "category": "Sports",
+        "name": "Camera 306",
+        "price": 1176.92,
+        "brand": "Samsung",
+        "year": 2023,
+        "description": "High-quality camera 306 from Samsung, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 307,
+        "category": "Books",
+        "name": "Ring 307",
+        "price": 2067.98,
+        "brand": "Asus",
+        "year": 2023,
+        "description": "High-quality ring 307 from Asus, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 308,
+        "category": "Gaming",
+        "name": "Sofa 308",
+        "price": 2318.83,
+        "brand": "Lenovo",
+        "year": 2021,
+        "description": "High-quality sofa 308 from Lenovo, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 309,
+        "category": "Sports",
+        "name": "Smartphone 309",
+        "price": 1078.5,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality smartphone 309 from LG, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 310,
+        "category": "Fashion",
+        "name": "Headphones 310",
+        "price": 4616.83,
+        "brand": "Puma",
+        "year": 2019,
+        "description": "High-quality headphones 310 from Puma, perfect for everyday use.",
+        "stock": 100
+    },
+    {
+        "id": 311,
+        "category": "Toys",
+        "name": "Mouse 311",
+        "price": 2974.9,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality mouse 311 from Canon, perfect for everyday use.",
+        "stock": 63
+    },
+    {
+        "id": 312,
+        "category": "Luggage",
+        "name": "Bicycle 312",
+        "price": 1507.54,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality bicycle 312 from Adidas, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 313,
+        "category": "Stationery",
+        "name": "Watch 313",
+        "price": 1294.29,
+        "brand": "Nikon",
+        "year": 2022,
+        "description": "High-quality watch 313 from Nikon, perfect for everyday use.",
+        "stock": 60
+    },
+    {
+        "id": 314,
+        "category": "Baby",
+        "name": "Bicycle 314",
+        "price": 852.59,
+        "brand": "HP",
+        "year": 2019,
+        "description": "High-quality bicycle 314 from HP, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 315,
+        "category": "Electronics",
+        "name": "Toy Car 315",
+        "price": 565.39,
+        "brand": "Asus",
+        "year": 2019,
+        "description": "High-quality toy car 315 from Asus, perfect for everyday use.",
+        "stock": 87
+    },
+    {
+        "id": 316,
+        "category": "Automotive",
+        "name": "Mouse 316",
+        "price": 229.63,
+        "brand": "Bosch",
+        "year": 2023,
+        "description": "High-quality mouse 316 from Bosch, perfect for everyday use.",
+        "stock": 99
+    },
+    {
+        "id": 317,
+        "category": "Baby",
+        "name": "Washing Machine 317",
+        "price": 1944.19,
+        "brand": "Lenovo",
+        "year": 2025,
+        "description": "High-quality washing machine 317 from Lenovo, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 318,
+        "category": "Health",
+        "name": "Jacket 318",
+        "price": 3460.99,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality jacket 318 from Puma, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 319,
+        "category": "Fitness",
+        "name": "Toy Car 319",
+        "price": 4988.45,
+        "brand": "Nikon",
+        "year": 2018,
+        "description": "High-quality toy car 319 from Nikon, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 320,
+        "category": "Lighting",
+        "name": "Camera 320",
+        "price": 4593.21,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality camera 320 from Microsoft, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 321,
+        "category": "Garden",
+        "name": "Backpack 321",
+        "price": 3157.66,
+        "brand": "Asus",
+        "year": 2018,
+        "description": "High-quality backpack 321 from Asus, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 322,
+        "category": "Luggage",
+        "name": "Gaming Console 322",
+        "price": 3213.57,
+        "brand": "Sony",
+        "year": 2020,
+        "description": "High-quality gaming console 322 from Sony, perfect for everyday use.",
+        "stock": 25
+    },
+    {
+        "id": 323,
+        "category": "Electronics",
+        "name": "Bicycle 323",
+        "price": 4408.75,
+        "brand": "Asus",
+        "year": 2018,
+        "description": "High-quality bicycle 323 from Asus, perfect for everyday use.",
+        "stock": 68
+    },
+    {
+        "id": 324,
+        "category": "Groceries",
+        "name": "Washing Machine 324",
+        "price": 3245.35,
+        "brand": "Microsoft",
+        "year": 2020,
+        "description": "High-quality washing machine 324 from Microsoft, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 325,
+        "category": "Baby",
+        "name": "Speaker 325",
+        "price": 2204.0,
+        "brand": "Philips",
+        "year": 2023,
+        "description": "High-quality speaker 325 from Philips, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 326,
+        "category": "Automotive",
+        "name": "Tablet 326",
+        "price": 799.16,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality tablet 326 from HP, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 327,
+        "category": "Pets",
+        "name": "Speaker 327",
+        "price": 1268.86,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality speaker 327 from Fossil, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 328,
+        "category": "Garden",
+        "name": "Air Conditioner 328",
+        "price": 129.68,
+        "brand": "Bosch",
+        "year": 2020,
+        "description": "High-quality air conditioner 328 from Bosch, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 329,
+        "category": "Stationery",
+        "name": "Shoes 329",
+        "price": 1178.5,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality shoes 329 from Apple, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 330,
+        "category": "Automotive",
+        "name": "Shoes 330",
+        "price": 4897.04,
+        "brand": "Asus",
+        "year": 2021,
+        "description": "High-quality shoes 330 from Asus, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 331,
+        "category": "Automotive",
+        "name": "Headphones 331",
+        "price": 2877.53,
+        "brand": "Nikon",
+        "year": 2022,
+        "description": "High-quality headphones 331 from Nikon, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 332,
+        "category": "Watches",
+        "name": "Sofa 332",
+        "price": 743.08,
+        "brand": "Canon",
+        "year": 2021,
+        "description": "High-quality sofa 332 from Canon, perfect for everyday use.",
+        "stock": 88
+    },
+    {
+        "id": 333,
+        "category": "Garden",
+        "name": "Gaming Console 333",
+        "price": 2139.04,
+        "brand": "Fossil",
+        "year": 2024,
+        "description": "High-quality gaming console 333 from Fossil, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 334,
+        "category": "Accessories",
+        "name": "Headphones 334",
+        "price": 2693.33,
+        "brand": "Bosch",
+        "year": 2023,
+        "description": "High-quality headphones 334 from Bosch, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 335,
+        "category": "Fashion",
+        "name": "Washing Machine 335",
+        "price": 384.59,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality washing machine 335 from Canon, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 336,
+        "category": "Garden",
+        "name": "Refrigerator 336",
+        "price": 3277.9,
+        "brand": "Fossil",
+        "year": 2019,
+        "description": "High-quality refrigerator 336 from Fossil, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 337,
+        "category": "Beauty",
+        "name": "Smartphone 337",
+        "price": 1849.13,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality smartphone 337 from Sony, perfect for everyday use.",
+        "stock": 60
+    },
+    {
+        "id": 338,
+        "category": "Toys",
+        "name": "Sunglasses 338",
+        "price": 4700.82,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality sunglasses 338 from Zara, perfect for everyday use.",
+        "stock": 28
+    },
+    {
+        "id": 339,
+        "category": "Garden",
+        "name": "Speaker 339",
+        "price": 2841.72,
+        "brand": "Nike",
+        "year": 2022,
+        "description": "High-quality speaker 339 from Nike, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 340,
+        "category": "Stationery",
+        "name": "Charger 340",
+        "price": 1727.73,
+        "brand": "Rolex",
+        "year": 2025,
+        "description": "High-quality charger 340 from Rolex, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 341,
+        "category": "Books",
+        "name": "Ring 341",
+        "price": 3514.17,
+        "brand": "LG",
+        "year": 2023,
+        "description": "High-quality ring 341 from LG, perfect for everyday use.",
+        "stock": 75
+    },
+    {
+        "id": 342,
+        "category": "Lighting",
+        "name": "Ring 342",
+        "price": 3006.95,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality ring 342 from Dell, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 343,
+        "category": "Gaming",
+        "name": "Ring 343",
+        "price": 2608.1,
+        "brand": "Bosch",
+        "year": 2021,
+        "description": "High-quality ring 343 from Bosch, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 344,
+        "category": "Groceries",
+        "name": "Jacket 344",
+        "price": 2163.59,
+        "brand": "Asus",
+        "year": 2021,
+        "description": "High-quality jacket 344 from Asus, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 345,
+        "category": "Music",
+        "name": "Jacket 345",
+        "price": 814.7,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality jacket 345 from Microsoft, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 346,
+        "category": "Office",
+        "name": "Refrigerator 346",
+        "price": 3683.9,
+        "brand": "Asus",
+        "year": 2019,
+        "description": "High-quality refrigerator 346 from Asus, perfect for everyday use.",
+        "stock": 98
+    },
+    {
+        "id": 347,
+        "category": "Outdoors",
+        "name": "Jeans 347",
+        "price": 860.37,
+        "brand": "Sony",
+        "year": 2023,
+        "description": "High-quality jeans 347 from Sony, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 348,
+        "category": "Toys",
+        "name": "Sofa 348",
+        "price": 3993.95,
+        "brand": "HP",
+        "year": 2018,
+        "description": "High-quality sofa 348 from HP, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 349,
+        "category": "Kitchen",
+        "name": "Desk Lamp 349",
+        "price": 1337.7,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality desk lamp 349 from Zara, perfect for everyday use.",
+        "stock": 28
+    },
+    {
+        "id": 350,
+        "category": "Office",
+        "name": "Keyboard 350",
+        "price": 1001.77,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality keyboard 350 from Fossil, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 351,
+        "category": "Luggage",
+        "name": "Washing Machine 351",
+        "price": 2795.68,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality washing machine 351 from Adidas, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 352,
+        "category": "Luggage",
+        "name": "Toy Car 352",
+        "price": 2876.15,
+        "brand": "Dell",
+        "year": 2022,
+        "description": "High-quality toy car 352 from Dell, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 353,
+        "category": "Toys",
+        "name": "Charger 353",
+        "price": 888.46,
+        "brand": "Fossil",
+        "year": 2021,
+        "description": "High-quality charger 353 from Fossil, perfect for everyday use.",
+        "stock": 49
+    },
+    {
+        "id": 354,
+        "category": "Automotive",
+        "name": "T-Shirt 354",
+        "price": 485.59,
+        "brand": "Philips",
+        "year": 2022,
+        "description": "High-quality t-shirt 354 from Philips, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 355,
+        "category": "Jewelry",
+        "name": "Charger 355",
+        "price": 4759.54,
+        "brand": "Nikon",
+        "year": 2024,
+        "description": "High-quality charger 355 from Nikon, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 356,
+        "category": "Gaming",
+        "name": "Air Conditioner 356",
+        "price": 4953.82,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality air conditioner 356 from Dell, perfect for everyday use.",
+        "stock": 93
+    },
+    {
+        "id": 357,
+        "category": "Health",
+        "name": "Book 357",
+        "price": 3240.66,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality book 357 from Lenovo, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 358,
+        "category": "Luggage",
+        "name": "Keyboard 358",
+        "price": 2884.9,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality keyboard 358 from Rolex, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 359,
+        "category": "Shoes",
+        "name": "Laptop 359",
+        "price": 391.75,
+        "brand": "Samsung",
+        "year": 2024,
+        "description": "High-quality laptop 359 from Samsung, perfect for everyday use.",
+        "stock": 100
+    },
+    {
+        "id": 360,
+        "category": "Lighting",
+        "name": "Keyboard 360",
+        "price": 1521.23,
+        "brand": "Panasonic",
+        "year": 2021,
+        "description": "High-quality keyboard 360 from Panasonic, perfect for everyday use.",
+        "stock": 50
+    },
+    {
+        "id": 361,
+        "category": "Fitness",
+        "name": "Camera 361",
+        "price": 2917.29,
+        "brand": "Zara",
+        "year": 2019,
+        "description": "High-quality camera 361 from Zara, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 362,
+        "category": "Tools",
+        "name": "Jeans 362",
+        "price": 3661.7,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality jeans 362 from Samsung, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 363,
+        "category": "Books",
+        "name": "Ring 363",
+        "price": 4803.39,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality ring 363 from Samsung, perfect for everyday use.",
+        "stock": 83
+    },
+    {
+        "id": 364,
+        "category": "Books",
+        "name": "Mouse 364",
+        "price": 4916.84,
+        "brand": "Samsung",
+        "year": 2018,
+        "description": "High-quality mouse 364 from Samsung, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 365,
+        "category": "Baby",
+        "name": "Headphones 365",
+        "price": 2484.51,
+        "brand": "Zara",
+        "year": 2024,
+        "description": "High-quality headphones 365 from Zara, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 366,
+        "category": "Sports",
+        "name": "Sunglasses 366",
+        "price": 4665.78,
+        "brand": "Adidas",
+        "year": 2021,
+        "description": "High-quality sunglasses 366 from Adidas, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 367,
+        "category": "Baby",
+        "name": "Air Conditioner 367",
+        "price": 4369.83,
+        "brand": "Sony",
+        "year": 2019,
+        "description": "High-quality air conditioner 367 from Sony, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 368,
+        "category": "Tools",
+        "name": "Bicycle 368",
+        "price": 212.43,
+        "brand": "Microsoft",
+        "year": 2023,
+        "description": "High-quality bicycle 368 from Microsoft, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 369,
+        "category": "Health",
+        "name": "Speaker 369",
+        "price": 2967.14,
+        "brand": "Bosch",
+        "year": 2022,
+        "description": "High-quality speaker 369 from Bosch, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 370,
+        "category": "Accessories",
+        "name": "Camera 370",
+        "price": 2586.83,
+        "brand": "Lenovo",
+        "year": 2025,
+        "description": "High-quality camera 370 from Lenovo, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 371,
+        "category": "Shoes",
+        "name": "Sofa 371",
+        "price": 663.39,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality sofa 371 from Puma, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 372,
+        "category": "Beauty",
+        "name": "Watch 372",
+        "price": 3618.89,
+        "brand": "Lenovo",
+        "year": 2019,
+        "description": "High-quality watch 372 from Lenovo, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 373,
+        "category": "Music",
+        "name": "Air Conditioner 373",
+        "price": 3984.56,
+        "brand": "Lenovo",
+        "year": 2024,
+        "description": "High-quality air conditioner 373 from Lenovo, perfect for everyday use.",
+        "stock": 61
+    },
+    {
+        "id": 374,
+        "category": "Tools",
+        "name": "Headphones 374",
+        "price": 2422.73,
+        "brand": "Adidas",
+        "year": 2020,
+        "description": "High-quality headphones 374 from Adidas, perfect for everyday use.",
+        "stock": 69
+    },
+    {
+        "id": 375,
+        "category": "Jewelry",
+        "name": "Ring 375",
+        "price": 1752.66,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality ring 375 from Canon, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 376,
+        "category": "Furniture",
+        "name": "Mouse 376",
+        "price": 4862.04,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality mouse 376 from Rolex, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 377,
+        "category": "Music",
+        "name": "Smartphone 377",
+        "price": 4095.19,
+        "brand": "Panasonic",
+        "year": 2022,
+        "description": "High-quality smartphone 377 from Panasonic, perfect for everyday use.",
+        "stock": 25
+    },
+    {
+        "id": 378,
+        "category": "Gaming",
+        "name": "Bicycle 378",
+        "price": 1737.72,
+        "brand": "Apple",
+        "year": 2019,
+        "description": "High-quality bicycle 378 from Apple, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 379,
+        "category": "Fitness",
+        "name": "Laptop 379",
+        "price": 1769.14,
+        "brand": "Bosch",
+        "year": 2025,
+        "description": "High-quality laptop 379 from Bosch, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 380,
+        "category": "Tools",
+        "name": "Sunglasses 380",
+        "price": 1271.92,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality sunglasses 380 from HP, perfect for everyday use.",
+        "stock": 96
+    },
+    {
+        "id": 381,
+        "category": "Automotive",
+        "name": "Watch 381",
+        "price": 1453.53,
+        "brand": "Fossil",
+        "year": 2024,
+        "description": "High-quality watch 381 from Fossil, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 382,
+        "category": "Accessories",
+        "name": "Smartphone 382",
+        "price": 2640.6,
+        "brand": "Rolex",
+        "year": 2019,
+        "description": "High-quality smartphone 382 from Rolex, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 383,
+        "category": "Lighting",
+        "name": "Mouse 383",
+        "price": 60.29,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality mouse 383 from Zara, perfect for everyday use.",
+        "stock": 10
+    },
+    {
+        "id": 384,
+        "category": "Clothing",
+        "name": "Keyboard 384",
+        "price": 4791.26,
+        "brand": "Rolex",
+        "year": 2018,
+        "description": "High-quality keyboard 384 from Rolex, perfect for everyday use.",
+        "stock": 6
+    },
+    {
+        "id": 385,
+        "category": "Baby",
+        "name": "Sofa 385",
+        "price": 541.91,
+        "brand": "Dell",
+        "year": 2022,
+        "description": "High-quality sofa 385 from Dell, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 386,
+        "category": "Beauty",
+        "name": "Sofa 386",
+        "price": 4120.52,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality sofa 386 from Sony, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 387,
+        "category": "Kitchen",
+        "name": "Headphones 387",
+        "price": 2368.4,
+        "brand": "Nike",
+        "year": 2020,
+        "description": "High-quality headphones 387 from Nike, perfect for everyday use.",
+        "stock": 85
+    },
+    {
+        "id": 388,
+        "category": "Gaming",
+        "name": "Book 388",
+        "price": 948.69,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality book 388 from LG, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 389,
+        "category": "Jewelry",
+        "name": "Jeans 389",
+        "price": 3199.2,
+        "brand": "Apple",
+        "year": 2024,
+        "description": "High-quality jeans 389 from Apple, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 390,
+        "category": "Gaming",
+        "name": "Shoes 390",
+        "price": 2037.86,
+        "brand": "Puma",
+        "year": 2019,
+        "description": "High-quality shoes 390 from Puma, perfect for everyday use.",
+        "stock": 29
+    },
+    {
+        "id": 391,
+        "category": "Watches",
+        "name": "Keyboard 391",
+        "price": 937.72,
+        "brand": "Nike",
+        "year": 2024,
+        "description": "High-quality keyboard 391 from Nike, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 392,
+        "category": "Books",
+        "name": "Refrigerator 392",
+        "price": 3398.18,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality refrigerator 392 from Apple, perfect for everyday use.",
+        "stock": 46
+    },
+    {
+        "id": 393,
+        "category": "Baby",
+        "name": "Monitor 393",
+        "price": 149.63,
+        "brand": "Rolex",
+        "year": 2018,
+        "description": "High-quality monitor 393 from Rolex, perfect for everyday use.",
+        "stock": 41
+    },
+    {
+        "id": 394,
+        "category": "Toys",
+        "name": "Charger 394",
+        "price": 4401.31,
+        "brand": "Philips",
+        "year": 2020,
+        "description": "High-quality charger 394 from Philips, perfect for everyday use.",
+        "stock": 21
+    },
+    {
+        "id": 395,
+        "category": "Electronics",
+        "name": "Tablet 395",
+        "price": 2211.75,
+        "brand": "Sony",
+        "year": 2024,
+        "description": "High-quality tablet 395 from Sony, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 396,
+        "category": "Sports",
+        "name": "Perfume 396",
+        "price": 3603.3,
+        "brand": "Philips",
+        "year": 2022,
+        "description": "High-quality perfume 396 from Philips, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 397,
+        "category": "Health",
+        "name": "Laptop 397",
+        "price": 1891.42,
+        "brand": "Puma",
+        "year": 2024,
+        "description": "High-quality laptop 397 from Puma, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 398,
+        "category": "Jewelry",
+        "name": "Toy Car 398",
+        "price": 4824.56,
+        "brand": "Lenovo",
+        "year": 2024,
+        "description": "High-quality toy car 398 from Lenovo, perfect for everyday use.",
+        "stock": 31
+    },
+    {
+        "id": 399,
+        "category": "Pets",
+        "name": "T-Shirt 399",
+        "price": 2713.44,
+        "brand": "Fossil",
+        "year": 2023,
+        "description": "High-quality t-shirt 399 from Fossil, perfect for everyday use.",
+        "stock": 67
+    },
+    {
+        "id": 400,
+        "category": "Health",
+        "name": "Shoes 400",
+        "price": 2300.73,
+        "brand": "Nikon",
+        "year": 2023,
+        "description": "High-quality shoes 400 from Nikon, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 401,
+        "category": "Groceries",
+        "name": "Laptop 401",
+        "price": 445.34,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality laptop 401 from Canon, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 402,
+        "category": "Health",
+        "name": "Smartphone 402",
+        "price": 2485.25,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "High-quality smartphone 402 from Panasonic, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 403,
+        "category": "Clothing",
+        "name": "Backpack 403",
+        "price": 1215.65,
+        "brand": "Nike",
+        "year": 2021,
+        "description": "High-quality backpack 403 from Nike, perfect for everyday use.",
+        "stock": 30
+    },
+    {
+        "id": 404,
+        "category": "Groceries",
+        "name": "Desk Lamp 404",
+        "price": 1354.16,
+        "brand": "Panasonic",
+        "year": 2025,
+        "description": "High-quality desk lamp 404 from Panasonic, perfect for everyday use.",
+        "stock": 39
+    },
+    {
+        "id": 405,
+        "category": "Cameras",
+        "name": "Microwave 405",
+        "price": 4468.12,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality microwave 405 from Fossil, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 406,
+        "category": "Health",
+        "name": "Headphones 406",
+        "price": 1090.25,
+        "brand": "Philips",
+        "year": 2018,
+        "description": "High-quality headphones 406 from Philips, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 407,
+        "category": "Jewelry",
+        "name": "Mouse 407",
+        "price": 376.71,
+        "brand": "Apple",
+        "year": 2021,
+        "description": "High-quality mouse 407 from Apple, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 408,
+        "category": "Outdoors",
+        "name": "Washing Machine 408",
+        "price": 956.9,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality washing machine 408 from Apple, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 409,
+        "category": "Stationery",
+        "name": "Watch 409",
+        "price": 1491.48,
+        "brand": "Lenovo",
+        "year": 2025,
+        "description": "High-quality watch 409 from Lenovo, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 410,
+        "category": "Sports",
+        "name": "T-Shirt 410",
+        "price": 2585.69,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality t-shirt 410 from Lenovo, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 411,
+        "category": "Automotive",
+        "name": "Book 411",
+        "price": 464.14,
+        "brand": "Nikon",
+        "year": 2019,
+        "description": "High-quality book 411 from Nikon, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 412,
+        "category": "Stationery",
+        "name": "Book 412",
+        "price": 1453.16,
+        "brand": "Apple",
+        "year": 2024,
+        "description": "High-quality book 412 from Apple, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 413,
+        "category": "Accessories",
+        "name": "Printer 413",
+        "price": 3578.64,
+        "brand": "HP",
+        "year": 2022,
+        "description": "High-quality printer 413 from HP, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 414,
+        "category": "Luggage",
+        "name": "Keyboard 414",
+        "price": 747.61,
+        "brand": "Adidas",
+        "year": 2025,
+        "description": "High-quality keyboard 414 from Adidas, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 415,
+        "category": "Tools",
+        "name": "Washing Machine 415",
+        "price": 3280.79,
+        "brand": "LG",
+        "year": 2023,
+        "description": "High-quality washing machine 415 from LG, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 416,
+        "category": "Beauty",
+        "name": "Bicycle 416",
+        "price": 3740.5,
+        "brand": "Apple",
+        "year": 2023,
+        "description": "High-quality bicycle 416 from Apple, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 417,
+        "category": "Office",
+        "name": "Backpack 417",
+        "price": 3164.24,
+        "brand": "Philips",
+        "year": 2024,
+        "description": "High-quality backpack 417 from Philips, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 418,
+        "category": "Groceries",
+        "name": "Book 418",
+        "price": 105.6,
+        "brand": "Zara",
+        "year": 2021,
+        "description": "High-quality book 418 from Zara, perfect for everyday use.",
+        "stock": 32
+    },
+    {
+        "id": 419,
+        "category": "Books",
+        "name": "Speaker 419",
+        "price": 3939.83,
+        "brand": "HP",
+        "year": 2025,
+        "description": "High-quality speaker 419 from HP, perfect for everyday use.",
+        "stock": 88
+    },
+    {
+        "id": 420,
+        "category": "Cameras",
+        "name": "Microwave 420",
+        "price": 1654.04,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality microwave 420 from Lenovo, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 421,
+        "category": "Clothing",
+        "name": "Shoes 421",
+        "price": 1163.93,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality shoes 421 from Puma, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 422,
+        "category": "Kitchen",
+        "name": "Sunglasses 422",
+        "price": 3478.03,
+        "brand": "Microsoft",
+        "year": 2022,
+        "description": "High-quality sunglasses 422 from Microsoft, perfect for everyday use.",
+        "stock": 49
+    },
+    {
+        "id": 423,
+        "category": "Health",
+        "name": "Sunglasses 423",
+        "price": 766.81,
+        "brand": "LG",
+        "year": 2024,
+        "description": "High-quality sunglasses 423 from LG, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 424,
+        "category": "Music",
+        "name": "Tablet 424",
+        "price": 4323.25,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality tablet 424 from Samsung, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 425,
+        "category": "Music",
+        "name": "Ring 425",
+        "price": 1920.49,
+        "brand": "Zara",
+        "year": 2021,
+        "description": "High-quality ring 425 from Zara, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 426,
+        "category": "Beauty",
+        "name": "Backpack 426",
+        "price": 3416.35,
+        "brand": "Puma",
+        "year": 2025,
+        "description": "High-quality backpack 426 from Puma, perfect for everyday use.",
+        "stock": 29
+    },
+    {
+        "id": 427,
+        "category": "Garden",
+        "name": "Toy Car 427",
+        "price": 3884.99,
+        "brand": "Philips",
+        "year": 2018,
+        "description": "High-quality toy car 427 from Philips, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 428,
+        "category": "Sports",
+        "name": "Book 428",
+        "price": 2775.05,
+        "brand": "Lenovo",
+        "year": 2025,
+        "description": "High-quality book 428 from Lenovo, perfect for everyday use.",
+        "stock": 78
+    },
+    {
+        "id": 429,
+        "category": "Stationery",
+        "name": "Jeans 429",
+        "price": 456.74,
+        "brand": "Microsoft",
+        "year": 2023,
+        "description": "High-quality jeans 429 from Microsoft, perfect for everyday use.",
+        "stock": 52
+    },
+    {
+        "id": 430,
+        "category": "Sports",
+        "name": "Jeans 430",
+        "price": 1936.49,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality jeans 430 from Nikon, perfect for everyday use.",
+        "stock": 83
+    },
+    {
+        "id": 431,
+        "category": "Gaming",
+        "name": "Monitor 431",
+        "price": 4775.85,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality monitor 431 from Microsoft, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 432,
+        "category": "Watches",
+        "name": "Backpack 432",
+        "price": 3009.14,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality backpack 432 from Canon, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 433,
+        "category": "Health",
+        "name": "Smartphone 433",
+        "price": 4028.18,
+        "brand": "Lenovo",
+        "year": 2020,
+        "description": "High-quality smartphone 433 from Lenovo, perfect for everyday use.",
+        "stock": 24
+    },
+    {
+        "id": 434,
+        "category": "Stationery",
+        "name": "Watch 434",
+        "price": 4920.56,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality watch 434 from Fossil, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 435,
+        "category": "Outdoors",
+        "name": "Jeans 435",
+        "price": 4719.38,
+        "brand": "LG",
+        "year": 2018,
+        "description": "High-quality jeans 435 from LG, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 436,
+        "category": "Groceries",
+        "name": "Ring 436",
+        "price": 1945.66,
+        "brand": "Samsung",
+        "year": 2023,
+        "description": "High-quality ring 436 from Samsung, perfect for everyday use.",
+        "stock": 49
+    },
+    {
+        "id": 437,
+        "category": "Jewelry",
+        "name": "Refrigerator 437",
+        "price": 3148.17,
+        "brand": "Lenovo",
+        "year": 2024,
+        "description": "High-quality refrigerator 437 from Lenovo, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 438,
+        "category": "Watches",
+        "name": "Bicycle 438",
+        "price": 1266.29,
+        "brand": "Nikon",
+        "year": 2020,
+        "description": "High-quality bicycle 438 from Nikon, perfect for everyday use.",
+        "stock": 17
+    },
+    {
+        "id": 439,
+        "category": "Baby",
+        "name": "Printer 439",
+        "price": 1372.8,
+        "brand": "Bosch",
+        "year": 2024,
+        "description": "High-quality printer 439 from Bosch, perfect for everyday use.",
+        "stock": 11
+    },
+    {
+        "id": 440,
+        "category": "Cameras",
+        "name": "Smartphone 440",
+        "price": 3536.11,
+        "brand": "Microsoft",
+        "year": 2019,
+        "description": "High-quality smartphone 440 from Microsoft, perfect for everyday use.",
+        "stock": 55
+    },
+    {
+        "id": 441,
+        "category": "Baby",
+        "name": "Speaker 441",
+        "price": 3157.82,
+        "brand": "Dell",
+        "year": 2025,
+        "description": "High-quality speaker 441 from Dell, perfect for everyday use.",
+        "stock": 50
+    },
+    {
+        "id": 442,
+        "category": "Watches",
+        "name": "Jacket 442",
+        "price": 2189.33,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "High-quality jacket 442 from Panasonic, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 443,
+        "category": "Beauty",
+        "name": "Air Conditioner 443",
+        "price": 2615.65,
+        "brand": "Apple",
+        "year": 2021,
+        "description": "High-quality air conditioner 443 from Apple, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 444,
+        "category": "Lighting",
+        "name": "Tablet 444",
+        "price": 2194.4,
+        "brand": "Microsoft",
+        "year": 2022,
+        "description": "High-quality tablet 444 from Microsoft, perfect for everyday use.",
+        "stock": 54
+    },
+    {
+        "id": 445,
+        "category": "Jewelry",
+        "name": "Washing Machine 445",
+        "price": 939.68,
+        "brand": "Puma",
+        "year": 2020,
+        "description": "High-quality washing machine 445 from Puma, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 446,
+        "category": "Furniture",
+        "name": "Watch 446",
+        "price": 3727.25,
+        "brand": "Philips",
+        "year": 2023,
+        "description": "High-quality watch 446 from Philips, perfect for everyday use.",
+        "stock": 41
+    },
+    {
+        "id": 447,
+        "category": "Furniture",
+        "name": "Monitor 447",
+        "price": 2950.65,
+        "brand": "Puma",
+        "year": 2025,
+        "description": "High-quality monitor 447 from Puma, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 448,
+        "category": "Toys",
+        "name": "Camera 448",
+        "price": 4352.25,
+        "brand": "Apple",
+        "year": 2021,
+        "description": "High-quality camera 448 from Apple, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 449,
+        "category": "Jewelry",
+        "name": "Tablet 449",
+        "price": 1370.44,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality tablet 449 from Canon, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 450,
+        "category": "Automotive",
+        "name": "Air Conditioner 450",
+        "price": 1325.06,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality air conditioner 450 from Microsoft, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 451,
+        "category": "Books",
+        "name": "Desk Lamp 451",
+        "price": 1875.59,
+        "brand": "Microsoft",
+        "year": 2023,
+        "description": "High-quality desk lamp 451 from Microsoft, perfect for everyday use.",
+        "stock": 62
+    },
+    {
+        "id": 452,
+        "category": "Stationery",
+        "name": "Charger 452",
+        "price": 2314.68,
+        "brand": "Fossil",
+        "year": 2021,
+        "description": "High-quality charger 452 from Fossil, perfect for everyday use.",
+        "stock": 61
+    },
+    {
+        "id": 453,
+        "category": "Outdoors",
+        "name": "Bicycle 453",
+        "price": 2068.89,
+        "brand": "Samsung",
+        "year": 2022,
+        "description": "High-quality bicycle 453 from Samsung, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 454,
+        "category": "Toys",
+        "name": "Air Conditioner 454",
+        "price": 3345.61,
+        "brand": "Panasonic",
+        "year": 2021,
+        "description": "High-quality air conditioner 454 from Panasonic, perfect for everyday use.",
+        "stock": 85
+    },
+    {
+        "id": 455,
+        "category": "Jewelry",
+        "name": "Watch 455",
+        "price": 1792.77,
+        "brand": "Puma",
+        "year": 2020,
+        "description": "High-quality watch 455 from Puma, perfect for everyday use.",
+        "stock": 49
+    },
+    {
+        "id": 456,
+        "category": "Accessories",
+        "name": "Gaming Console 456",
+        "price": 234.43,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality gaming console 456 from Dell, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 457,
+        "category": "Outdoors",
+        "name": "Desk Lamp 457",
+        "price": 1946.47,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality desk lamp 457 from Puma, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 458,
+        "category": "Groceries",
+        "name": "Air Conditioner 458",
+        "price": 2432.57,
+        "brand": "Asus",
+        "year": 2024,
+        "description": "High-quality air conditioner 458 from Asus, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 459,
+        "category": "Fashion",
+        "name": "Speaker 459",
+        "price": 3485.49,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality speaker 459 from Sony, perfect for everyday use.",
+        "stock": 27
+    },
+    {
+        "id": 460,
+        "category": "Baby",
+        "name": "Jeans 460",
+        "price": 4712.9,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality jeans 460 from Apple, perfect for everyday use.",
+        "stock": 97
+    },
+    {
+        "id": 461,
+        "category": "Clothing",
+        "name": "Camera 461",
+        "price": 3286.28,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality camera 461 from Canon, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 462,
+        "category": "Books",
+        "name": "Laptop 462",
+        "price": 2995.41,
+        "brand": "Puma",
+        "year": 2022,
+        "description": "High-quality laptop 462 from Puma, perfect for everyday use.",
+        "stock": 76
+    },
+    {
+        "id": 463,
+        "category": "Fashion",
+        "name": "Microwave 463",
+        "price": 2188.17,
+        "brand": "Rolex",
+        "year": 2023,
+        "description": "High-quality microwave 463 from Rolex, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 464,
+        "category": "Clothing",
+        "name": "Gaming Console 464",
+        "price": 4897.75,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality gaming console 464 from Dell, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 465,
+        "category": "Pets",
+        "name": "Smartphone 465",
+        "price": 3143.17,
+        "brand": "Philips",
+        "year": 2021,
+        "description": "High-quality smartphone 465 from Philips, perfect for everyday use.",
+        "stock": 71
+    },
+    {
+        "id": 466,
+        "category": "Luggage",
+        "name": "Bicycle 466",
+        "price": 285.96,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality bicycle 466 from Dell, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 467,
+        "category": "Music",
+        "name": "Smartphone 467",
+        "price": 8.3,
+        "brand": "Rolex",
+        "year": 2019,
+        "description": "High-quality smartphone 467 from Rolex, perfect for everyday use.",
+        "stock": 83
+    },
+    {
+        "id": 468,
+        "category": "Luggage",
+        "name": "Printer 468",
+        "price": 1286.83,
+        "brand": "Fossil",
+        "year": 2018,
+        "description": "High-quality printer 468 from Fossil, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 469,
+        "category": "Watches",
+        "name": "Sunglasses 469",
+        "price": 1220.24,
+        "brand": "Adidas",
+        "year": 2023,
+        "description": "High-quality sunglasses 469 from Adidas, perfect for everyday use.",
+        "stock": 58
+    },
+    {
+        "id": 470,
+        "category": "Fashion",
+        "name": "Toy Car 470",
+        "price": 1087.87,
+        "brand": "Panasonic",
+        "year": 2025,
+        "description": "High-quality toy car 470 from Panasonic, perfect for everyday use.",
+        "stock": 72
+    },
+    {
+        "id": 471,
+        "category": "Furniture",
+        "name": "Keyboard 471",
+        "price": 2947.96,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality keyboard 471 from Fossil, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 472,
+        "category": "Cameras",
+        "name": "Washing Machine 472",
+        "price": 4013.35,
+        "brand": "Canon",
+        "year": 2022,
+        "description": "High-quality washing machine 472 from Canon, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 473,
+        "category": "Shoes",
+        "name": "Air Conditioner 473",
+        "price": 4532.7,
+        "brand": "Adidas",
+        "year": 2020,
+        "description": "High-quality air conditioner 473 from Adidas, perfect for everyday use.",
+        "stock": 11
+    },
+    {
+        "id": 474,
+        "category": "Jewelry",
+        "name": "Charger 474",
+        "price": 623.21,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality charger 474 from Sony, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 475,
+        "category": "Automotive",
+        "name": "Shoes 475",
+        "price": 3339.18,
+        "brand": "Canon",
+        "year": 2021,
+        "description": "High-quality shoes 475 from Canon, perfect for everyday use.",
+        "stock": 99
+    },
+    {
+        "id": 476,
+        "category": "HomeAppliances",
+        "name": "Perfume 476",
+        "price": 1657.07,
+        "brand": "Apple",
+        "year": 2022,
+        "description": "High-quality perfume 476 from Apple, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 477,
+        "category": "Music",
+        "name": "Shoes 477",
+        "price": 4339.51,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality shoes 477 from Fossil, perfect for everyday use.",
+        "stock": 98
+    },
+    {
+        "id": 478,
+        "category": "Fashion",
+        "name": "Jacket 478",
+        "price": 2714.24,
+        "brand": "Philips",
+        "year": 2021,
+        "description": "High-quality jacket 478 from Philips, perfect for everyday use.",
+        "stock": 1
+    },
+    {
+        "id": 479,
+        "category": "Beauty",
+        "name": "Microwave 479",
+        "price": 958.58,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality microwave 479 from Dell, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 480,
+        "category": "Groceries",
+        "name": "Bicycle 480",
+        "price": 2063.57,
+        "brand": "Lenovo",
+        "year": 2018,
+        "description": "High-quality bicycle 480 from Lenovo, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 481,
+        "category": "Automotive",
+        "name": "Camera 481",
+        "price": 4245.16,
+        "brand": "Lenovo",
+        "year": 2022,
+        "description": "High-quality camera 481 from Lenovo, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 482,
+        "category": "Garden",
+        "name": "Shoes 482",
+        "price": 3810.64,
+        "brand": "Microsoft",
+        "year": 2020,
+        "description": "High-quality shoes 482 from Microsoft, perfect for everyday use.",
+        "stock": 33
+    },
+    {
+        "id": 483,
+        "category": "Groceries",
+        "name": "Laptop 483",
+        "price": 4943.42,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality laptop 483 from Canon, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 484,
+        "category": "HomeAppliances",
+        "name": "Tablet 484",
+        "price": 1794.36,
+        "brand": "Sony",
+        "year": 2018,
+        "description": "High-quality tablet 484 from Sony, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 485,
+        "category": "Lighting",
+        "name": "Ring 485",
+        "price": 3150.85,
+        "brand": "Apple",
+        "year": 2023,
+        "description": "High-quality ring 485 from Apple, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 486,
+        "category": "Electronics",
+        "name": "Desk Lamp 486",
+        "price": 138.49,
+        "brand": "Panasonic",
+        "year": 2023,
+        "description": "High-quality desk lamp 486 from Panasonic, perfect for everyday use.",
+        "stock": 12
+    },
+    {
+        "id": 487,
+        "category": "Outdoors",
+        "name": "Watch 487",
+        "price": 387.75,
+        "brand": "Nikon",
+        "year": 2021,
+        "description": "High-quality watch 487 from Nikon, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 488,
+        "category": "HomeAppliances",
+        "name": "Perfume 488",
+        "price": 2454.76,
+        "brand": "LG",
+        "year": 2019,
+        "description": "High-quality perfume 488 from LG, perfect for everyday use.",
+        "stock": 68
+    },
+    {
+        "id": 489,
+        "category": "Jewelry",
+        "name": "Speaker 489",
+        "price": 1176.92,
+        "brand": "Dell",
+        "year": 2018,
+        "description": "High-quality speaker 489 from Dell, perfect for everyday use.",
+        "stock": 44
+    },
+    {
+        "id": 490,
+        "category": "Toys",
+        "name": "Microwave 490",
+        "price": 2786.15,
+        "brand": "Bosch",
+        "year": 2024,
+        "description": "High-quality microwave 490 from Bosch, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 491,
+        "category": "Clothing",
+        "name": "Backpack 491",
+        "price": 4895.08,
+        "brand": "Zara",
+        "year": 2022,
+        "description": "High-quality backpack 491 from Zara, perfect for everyday use.",
+        "stock": 66
+    },
+    {
+        "id": 492,
+        "category": "Beauty",
+        "name": "Ring 492",
+        "price": 4865.02,
+        "brand": "Apple",
+        "year": 2024,
+        "description": "High-quality ring 492 from Apple, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 493,
+        "category": "Clothing",
+        "name": "Perfume 493",
+        "price": 2871.45,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality perfume 493 from Fossil, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 494,
+        "category": "Groceries",
+        "name": "Perfume 494",
+        "price": 2916.67,
+        "brand": "Adidas",
+        "year": 2023,
+        "description": "High-quality perfume 494 from Adidas, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 495,
+        "category": "Music",
+        "name": "Perfume 495",
+        "price": 4873.25,
+        "brand": "Microsoft",
+        "year": 2018,
+        "description": "High-quality perfume 495 from Microsoft, perfect for everyday use.",
+        "stock": 30
+    },
+    {
+        "id": 496,
+        "category": "Pets",
+        "name": "Watch 496",
+        "price": 2984.35,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality watch 496 from Zara, perfect for everyday use.",
+        "stock": 77
+    },
+    {
+        "id": 497,
+        "category": "Electronics",
+        "name": "Headphones 497",
+        "price": 2233.62,
+        "brand": "LG",
+        "year": 2021,
+        "description": "High-quality headphones 497 from LG, perfect for everyday use.",
+        "stock": 69
+    },
+    {
+        "id": 498,
+        "category": "Toys",
+        "name": "Tablet 498",
+        "price": 1133.17,
+        "brand": "Zara",
+        "year": 2020,
+        "description": "High-quality tablet 498 from Zara, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 499,
+        "category": "Fashion",
+        "name": "Air Conditioner 499",
+        "price": 2307.96,
+        "brand": "Panasonic",
+        "year": 2019,
+        "description": "High-quality air conditioner 499 from Panasonic, perfect for everyday use.",
+        "stock": 47
+    },
+    {
+        "id": 500,
+        "category": "Gaming",
+        "name": "Smartphone 500",
+        "price": 3460.22,
+        "brand": "Philips",
+        "year": 2022,
+        "description": "High-quality smartphone 500 from Philips, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 501,
+        "category": "Books",
+        "name": "Toy Car 501",
+        "price": 3072.01,
+        "brand": "Samsung",
+        "year": 2022,
+        "description": "High-quality toy car 501 from Samsung, perfect for everyday use.",
+        "stock": 37
+    },
+    {
+        "id": 502,
+        "category": "Kitchen",
+        "name": "Jacket 502",
+        "price": 3370.2,
+        "brand": "Apple",
+        "year": 2020,
+        "description": "High-quality jacket 502 from Apple, perfect for everyday use.",
+        "stock": 93
+    },
+    {
+        "id": 503,
+        "category": "Shoes",
+        "name": "Microwave 503",
+        "price": 1925.29,
+        "brand": "Fossil",
+        "year": 2018,
+        "description": "High-quality microwave 503 from Fossil, perfect for everyday use.",
+        "stock": 10
+    },
+    {
+        "id": 504,
+        "category": "Electronics",
+        "name": "Shoes 504",
+        "price": 3961.66,
+        "brand": "Rolex",
+        "year": 2024,
+        "description": "High-quality shoes 504 from Rolex, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 505,
+        "category": "Toys",
+        "name": "Camera 505",
+        "price": 308.51,
+        "brand": "Asus",
+        "year": 2020,
+        "description": "High-quality camera 505 from Asus, perfect for everyday use.",
+        "stock": 78
+    },
+    {
+        "id": 506,
+        "category": "Music",
+        "name": "Monitor 506",
+        "price": 3888.8,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality monitor 506 from Microsoft, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 507,
+        "category": "Garden",
+        "name": "Headphones 507",
+        "price": 1651.72,
+        "brand": "Puma",
+        "year": 2020,
+        "description": "High-quality headphones 507 from Puma, perfect for everyday use.",
+        "stock": 6
+    },
+    {
+        "id": 508,
+        "category": "Lighting",
+        "name": "Charger 508",
+        "price": 431.29,
+        "brand": "Bosch",
+        "year": 2025,
+        "description": "High-quality charger 508 from Bosch, perfect for everyday use.",
+        "stock": 95
+    },
+    {
+        "id": 509,
+        "category": "Jewelry",
+        "name": "Jeans 509",
+        "price": 2787.5,
+        "brand": "Nike",
+        "year": 2018,
+        "description": "High-quality jeans 509 from Nike, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 510,
+        "category": "Cameras",
+        "name": "Washing Machine 510",
+        "price": 2116.49,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality washing machine 510 from Zara, perfect for everyday use.",
+        "stock": 23
+    },
+    {
+        "id": 511,
+        "category": "Shoes",
+        "name": "Microwave 511",
+        "price": 1401.57,
+        "brand": "Nikon",
+        "year": 2023,
+        "description": "High-quality microwave 511 from Nikon, perfect for everyday use.",
+        "stock": 43
+    },
+    {
+        "id": 512,
+        "category": "Shoes",
+        "name": "Headphones 512",
+        "price": 1217.1,
+        "brand": "Lenovo",
+        "year": 2022,
+        "description": "High-quality headphones 512 from Lenovo, perfect for everyday use.",
+        "stock": 89
+    },
+    {
+        "id": 513,
+        "category": "Automotive",
+        "name": "Sofa 513",
+        "price": 651.09,
+        "brand": "LG",
+        "year": 2023,
+        "description": "High-quality sofa 513 from LG, perfect for everyday use.",
+        "stock": 46
+    },
+    {
+        "id": 514,
+        "category": "Office",
+        "name": "Monitor 514",
+        "price": 4836.74,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality monitor 514 from Rolex, perfect for everyday use.",
+        "stock": 70
+    },
+    {
+        "id": 515,
+        "category": "Gaming",
+        "name": "Mouse 515",
+        "price": 2983.36,
+        "brand": "Canon",
+        "year": 2019,
+        "description": "High-quality mouse 515 from Canon, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 516,
+        "category": "Books",
+        "name": "T-Shirt 516",
+        "price": 3171.19,
+        "brand": "Sony",
+        "year": 2024,
+        "description": "High-quality t-shirt 516 from Sony, perfect for everyday use.",
+        "stock": 26
+    },
+    {
+        "id": 517,
+        "category": "Fitness",
+        "name": "T-Shirt 517",
+        "price": 1624.33,
+        "brand": "Canon",
+        "year": 2021,
+        "description": "High-quality t-shirt 517 from Canon, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 518,
+        "category": "Furniture",
+        "name": "Bicycle 518",
+        "price": 2706.31,
+        "brand": "Apple",
+        "year": 2025,
+        "description": "High-quality bicycle 518 from Apple, perfect for everyday use.",
+        "stock": 48
+    },
+    {
+        "id": 519,
+        "category": "Clothing",
+        "name": "Air Conditioner 519",
+        "price": 894.5,
+        "brand": "Adidas",
+        "year": 2023,
+        "description": "High-quality air conditioner 519 from Adidas, perfect for everyday use.",
+        "stock": 6
+    },
+    {
+        "id": 520,
+        "category": "Accessories",
+        "name": "Tablet 520",
+        "price": 2593.82,
+        "brand": "Zara",
+        "year": 2024,
+        "description": "High-quality tablet 520 from Zara, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 521,
+        "category": "Books",
+        "name": "Bicycle 521",
+        "price": 2646.63,
+        "brand": "Samsung",
+        "year": 2019,
+        "description": "High-quality bicycle 521 from Samsung, perfect for everyday use.",
+        "stock": 3
+    },
+    {
+        "id": 522,
+        "category": "Clothing",
+        "name": "Sofa 522",
+        "price": 3847.36,
+        "brand": "Nike",
+        "year": 2020,
+        "description": "High-quality sofa 522 from Nike, perfect for everyday use.",
+        "stock": 22
+    },
+    {
+        "id": 523,
+        "category": "Music",
+        "name": "Ring 523",
+        "price": 2371.78,
+        "brand": "Microsoft",
+        "year": 2019,
+        "description": "High-quality ring 523 from Microsoft, perfect for everyday use.",
+        "stock": 59
+    },
+    {
+        "id": 524,
+        "category": "Pets",
+        "name": "Refrigerator 524",
+        "price": 1661.48,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality refrigerator 524 from Dell, perfect for everyday use.",
+        "stock": 97
+    },
+    {
+        "id": 525,
+        "category": "HomeAppliances",
+        "name": "Book 525",
+        "price": 4922.59,
+        "brand": "Zara",
+        "year": 2019,
+        "description": "High-quality book 525 from Zara, perfect for everyday use.",
+        "stock": 61
+    },
+    {
+        "id": 526,
+        "category": "Kitchen",
+        "name": "Refrigerator 526",
+        "price": 259.78,
+        "brand": "Sony",
+        "year": 2020,
+        "description": "High-quality refrigerator 526 from Sony, perfect for everyday use.",
+        "stock": 79
+    },
+    {
+        "id": 527,
+        "category": "Automotive",
+        "name": "Refrigerator 527",
+        "price": 1280.48,
+        "brand": "Samsung",
+        "year": 2018,
+        "description": "High-quality refrigerator 527 from Samsung, perfect for everyday use.",
+        "stock": 83
+    },
+    {
+        "id": 528,
+        "category": "Cameras",
+        "name": "Gaming Console 528",
+        "price": 1936.62,
+        "brand": "Panasonic",
+        "year": 2024,
+        "description": "High-quality gaming console 528 from Panasonic, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 529,
+        "category": "Automotive",
+        "name": "Refrigerator 529",
+        "price": 4795.83,
+        "brand": "Panasonic",
+        "year": 2021,
+        "description": "High-quality refrigerator 529 from Panasonic, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 530,
+        "category": "Pets",
+        "name": "Charger 530",
+        "price": 469.24,
+        "brand": "Asus",
+        "year": 2022,
+        "description": "High-quality charger 530 from Asus, perfect for everyday use.",
+        "stock": 21
+    },
+    {
+        "id": 531,
+        "category": "Fitness",
+        "name": "Toy Car 531",
+        "price": 918.86,
+        "brand": "Lenovo",
+        "year": 2019,
+        "description": "High-quality toy car 531 from Lenovo, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 532,
+        "category": "HomeAppliances",
+        "name": "Camera 532",
+        "price": 2205.92,
+        "brand": "Nike",
+        "year": 2024,
+        "description": "High-quality camera 532 from Nike, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 533,
+        "category": "Books",
+        "name": "Sunglasses 533",
+        "price": 1974.13,
+        "brand": "HP",
+        "year": 2018,
+        "description": "High-quality sunglasses 533 from HP, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 534,
+        "category": "Cameras",
+        "name": "Air Conditioner 534",
+        "price": 796.48,
+        "brand": "Asus",
+        "year": 2024,
+        "description": "High-quality air conditioner 534 from Asus, perfect for everyday use.",
+        "stock": 2
+    },
+    {
+        "id": 535,
+        "category": "Health",
+        "name": "Ring 535",
+        "price": 3657.04,
+        "brand": "Fossil",
+        "year": 2024,
+        "description": "High-quality ring 535 from Fossil, perfect for everyday use.",
+        "stock": 14
+    },
+    {
+        "id": 536,
+        "category": "Electronics",
+        "name": "Printer 536",
+        "price": 2727.73,
+        "brand": "Fossil",
+        "year": 2024,
+        "description": "High-quality printer 536 from Fossil, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 537,
+        "category": "Fashion",
+        "name": "Watch 537",
+        "price": 126.99,
+        "brand": "Adidas",
+        "year": 2019,
+        "description": "High-quality watch 537 from Adidas, perfect for everyday use.",
+        "stock": 64
+    },
+    {
+        "id": 538,
+        "category": "Tools",
+        "name": "Toy Car 538",
+        "price": 3329.61,
+        "brand": "Sony",
+        "year": 2022,
+        "description": "High-quality toy car 538 from Sony, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 539,
+        "category": "Lighting",
+        "name": "Laptop 539",
+        "price": 8.16,
+        "brand": "Panasonic",
+        "year": 2020,
+        "description": "High-quality laptop 539 from Panasonic, perfect for everyday use.",
+        "stock": 68
+    },
+    {
+        "id": 540,
+        "category": "Fashion",
+        "name": "Camera 540",
+        "price": 736.99,
+        "brand": "LG",
+        "year": 2022,
+        "description": "High-quality camera 540 from LG, perfect for everyday use.",
+        "stock": 29
+    },
+    {
+        "id": 541,
+        "category": "Luggage",
+        "name": "Air Conditioner 541",
+        "price": 4341.55,
+        "brand": "Philips",
+        "year": 2018,
+        "description": "High-quality air conditioner 541 from Philips, perfect for everyday use.",
+        "stock": 54
+    },
+    {
+        "id": 542,
+        "category": "Lighting",
+        "name": "Microwave 542",
+        "price": 448.59,
+        "brand": "Dell",
+        "year": 2024,
+        "description": "High-quality microwave 542 from Dell, perfect for everyday use.",
+        "stock": 75
+    },
+    {
+        "id": 543,
+        "category": "Lighting",
+        "name": "Perfume 543",
+        "price": 2818.59,
+        "brand": "Puma",
+        "year": 2020,
+        "description": "High-quality perfume 543 from Puma, perfect for everyday use.",
+        "stock": 42
+    },
+    {
+        "id": 544,
+        "category": "Outdoors",
+        "name": "Toy Car 544",
+        "price": 215.72,
+        "brand": "Microsoft",
+        "year": 2019,
+        "description": "High-quality toy car 544 from Microsoft, perfect for everyday use.",
+        "stock": 11
+    },
+    {
+        "id": 545,
+        "category": "Fitness",
+        "name": "Jeans 545",
+        "price": 4480.88,
+        "brand": "Fossil",
+        "year": 2025,
+        "description": "High-quality jeans 545 from Fossil, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 546,
+        "category": "Electronics",
+        "name": "Laptop 546",
+        "price": 879.88,
+        "brand": "Puma",
+        "year": 2021,
+        "description": "High-quality laptop 546 from Puma, perfect for everyday use.",
+        "stock": 54
+    },
+    {
+        "id": 547,
+        "category": "Clothing",
+        "name": "Desk Lamp 547",
+        "price": 2323.52,
+        "brand": "Sony",
+        "year": 2019,
+        "description": "High-quality desk lamp 547 from Sony, perfect for everyday use.",
+        "stock": 20
+    },
+    {
+        "id": 548,
+        "category": "Baby",
+        "name": "Shoes 548",
+        "price": 2104.72,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality shoes 548 from Microsoft, perfect for everyday use.",
+        "stock": 9
+    },
+    {
+        "id": 549,
+        "category": "Outdoors",
+        "name": "Washing Machine 549",
+        "price": 2182.75,
+        "brand": "Dell",
+        "year": 2025,
+        "description": "High-quality washing machine 549 from Dell, perfect for everyday use.",
+        "stock": 84
+    },
+    {
+        "id": 550,
+        "category": "Shoes",
+        "name": "Microwave 550",
+        "price": 99.75,
+        "brand": "Adidas",
+        "year": 2022,
+        "description": "High-quality microwave 550 from Adidas, perfect for everyday use.",
+        "stock": 76
+    },
+    {
+        "id": 551,
+        "category": "Furniture",
+        "name": "Laptop 551",
+        "price": 2952.76,
+        "brand": "Zara",
+        "year": 2020,
+        "description": "High-quality laptop 551 from Zara, perfect for everyday use.",
+        "stock": 7
+    },
+    {
+        "id": 552,
+        "category": "Pets",
+        "name": "Jeans 552",
+        "price": 873.65,
+        "brand": "LG",
+        "year": 2019,
+        "description": "High-quality jeans 552 from LG, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 553,
+        "category": "Garden",
+        "name": "Camera 553",
+        "price": 2340.62,
+        "brand": "Samsung",
+        "year": 2018,
+        "description": "High-quality camera 553 from Samsung, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 554,
+        "category": "Music",
+        "name": "Ring 554",
+        "price": 3091.9,
+        "brand": "Lenovo",
+        "year": 2023,
+        "description": "High-quality ring 554 from Lenovo, perfect for everyday use.",
+        "stock": 40
+    },
+    {
+        "id": 555,
+        "category": "Stationery",
+        "name": "Backpack 555",
+        "price": 1955.75,
+        "brand": "Fossil",
+        "year": 2018,
+        "description": "High-quality backpack 555 from Fossil, perfect for everyday use.",
+        "stock": 49
+    },
+    {
+        "id": 556,
+        "category": "Furniture",
+        "name": "Sunglasses 556",
+        "price": 1108.29,
+        "brand": "HP",
+        "year": 2023,
+        "description": "High-quality sunglasses 556 from HP, perfect for everyday use.",
+        "stock": 34
+    },
+    {
+        "id": 557,
+        "category": "Cameras",
+        "name": "Laptop 557",
+        "price": 3138.74,
+        "brand": "Sony",
+        "year": 2018,
+        "description": "High-quality laptop 557 from Sony, perfect for everyday use.",
+        "stock": 16
+    },
+    {
+        "id": 558,
+        "category": "Luggage",
+        "name": "Mouse 558",
+        "price": 3048.42,
+        "brand": "Canon",
+        "year": 2018,
+        "description": "High-quality mouse 558 from Canon, perfect for everyday use.",
+        "stock": 11
+    },
+    {
+        "id": 559,
+        "category": "Health",
+        "name": "Air Conditioner 559",
+        "price": 2852.56,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality air conditioner 559 from Canon, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 560,
+        "category": "Electronics",
+        "name": "Monitor 560",
+        "price": 3424.43,
+        "brand": "Sony",
+        "year": 2025,
+        "description": "High-quality monitor 560 from Sony, perfect for everyday use.",
+        "stock": 52
+    },
+    {
+        "id": 561,
+        "category": "Jewelry",
+        "name": "Keyboard 561",
+        "price": 4649.13,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality keyboard 561 from Canon, perfect for everyday use.",
+        "stock": 4
+    },
+    {
+        "id": 562,
+        "category": "Pets",
+        "name": "T-Shirt 562",
+        "price": 4743.71,
+        "brand": "Bosch",
+        "year": 2021,
+        "description": "High-quality t-shirt 562 from Bosch, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 563,
+        "category": "Watches",
+        "name": "Mouse 563",
+        "price": 4836.12,
+        "brand": "Fossil",
+        "year": 2020,
+        "description": "High-quality mouse 563 from Fossil, perfect for everyday use.",
+        "stock": 50
+    },
+    {
+        "id": 564,
+        "category": "Stationery",
+        "name": "Gaming Console 564",
+        "price": 1908.94,
+        "brand": "Puma",
+        "year": 2019,
+        "description": "High-quality gaming console 564 from Puma, perfect for everyday use.",
+        "stock": 60
+    },
+    {
+        "id": 565,
+        "category": "Tools",
+        "name": "Charger 565",
+        "price": 2770.1,
+        "brand": "Dell",
+        "year": 2020,
+        "description": "High-quality charger 565 from Dell, perfect for everyday use.",
+        "stock": 63
+    },
+    {
+        "id": 566,
+        "category": "Beauty",
+        "name": "Microwave 566",
+        "price": 513.43,
+        "brand": "Rolex",
+        "year": 2021,
+        "description": "High-quality microwave 566 from Rolex, perfect for everyday use.",
+        "stock": 82
+    },
+    {
+        "id": 567,
+        "category": "Sports",
+        "name": "Refrigerator 567",
+        "price": 1007.31,
+        "brand": "Panasonic",
+        "year": 2020,
+        "description": "High-quality refrigerator 567 from Panasonic, perfect for everyday use.",
+        "stock": 8
+    },
+    {
+        "id": 568,
+        "category": "Furniture",
+        "name": "Backpack 568",
+        "price": 3038.43,
+        "brand": "Canon",
+        "year": 2020,
+        "description": "High-quality backpack 568 from Canon, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 569,
+        "category": "Jewelry",
+        "name": "Book 569",
+        "price": 2440.7,
+        "brand": "Canon",
+        "year": 2024,
+        "description": "High-quality book 569 from Canon, perfect for everyday use.",
+        "stock": 65
+    },
+    {
+        "id": 570,
+        "category": "Tools",
+        "name": "Ring 570",
+        "price": 794.68,
+        "brand": "Adidas",
+        "year": 2022,
+        "description": "High-quality ring 570 from Adidas, perfect for everyday use.",
+        "stock": 67
+    },
+    {
+        "id": 571,
+        "category": "Toys",
+        "name": "Microwave 571",
+        "price": 938.79,
+        "brand": "Rolex",
+        "year": 2018,
+        "description": "High-quality microwave 571 from Rolex, perfect for everyday use.",
+        "stock": 38
+    },
+    {
+        "id": 572,
+        "category": "Music",
+        "name": "Laptop 572",
+        "price": 3897.36,
+        "brand": "Microsoft",
+        "year": 2024,
+        "description": "High-quality laptop 572 from Microsoft, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 573,
+        "category": "Garden",
+        "name": "Air Conditioner 573",
+        "price": 4313.28,
+        "brand": "Asus",
+        "year": 2022,
+        "description": "High-quality air conditioner 573 from Asus, perfect for everyday use.",
+        "stock": 13
+    },
+    {
+        "id": 574,
+        "category": "Watches",
+        "name": "Watch 574",
+        "price": 1003.8,
+        "brand": "Adidas",
+        "year": 2024,
+        "description": "High-quality watch 574 from Adidas, perfect for everyday use.",
+        "stock": 24
+    },
+    {
+        "id": 575,
+        "category": "HomeAppliances",
+        "name": "Watch 575",
+        "price": 4834.57,
+        "brand": "Microsoft",
+        "year": 2021,
+        "description": "High-quality watch 575 from Microsoft, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 576,
+        "category": "Fitness",
+        "name": "Camera 576",
+        "price": 577.37,
+        "brand": "Puma",
+        "year": 2023,
+        "description": "High-quality camera 576 from Puma, perfect for everyday use.",
+        "stock": 57
+    },
+    {
+        "id": 577,
+        "category": "Jewelry",
+        "name": "Keyboard 577",
+        "price": 4856.22,
+        "brand": "Sony",
+        "year": 2023,
+        "description": "High-quality keyboard 577 from Sony, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 578,
+        "category": "Automotive",
+        "name": "Ring 578",
+        "price": 3241.1,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality ring 578 from Zara, perfect for everyday use.",
+        "stock": 35
+    },
+    {
+        "id": 579,
+        "category": "Beauty",
+        "name": "Watch 579",
+        "price": 3637.48,
+        "brand": "Adidas",
+        "year": 2025,
+        "description": "High-quality watch 579 from Adidas, perfect for everyday use.",
+        "stock": 74
+    },
+    {
+        "id": 580,
+        "category": "Toys",
+        "name": "Sofa 580",
+        "price": 1664.94,
+        "brand": "Adidas",
+        "year": 2019,
+        "description": "High-quality sofa 580 from Adidas, perfect for everyday use.",
+        "stock": 91
+    },
+    {
+        "id": 581,
+        "category": "Cameras",
+        "name": "Mouse 581",
+        "price": 2841.59,
+        "brand": "Zara",
+        "year": 2018,
+        "description": "High-quality mouse 581 from Zara, perfect for everyday use.",
+        "stock": 43
+    },
+    {
+        "id": 582,
+        "category": "Garden",
+        "name": "Camera 582",
+        "price": 2719.7,
+        "brand": "Nikon",
+        "year": 2018,
+        "description": "High-quality camera 582 from Nikon, perfect for everyday use.",
+        "stock": 73
+    },
+    {
+        "id": 583,
+        "category": "Toys",
+        "name": "Washing Machine 583",
+        "price": 4412.48,
+        "brand": "Dell",
+        "year": 2023,
+        "description": "High-quality washing machine 583 from Dell, perfect for everyday use.",
+        "stock": 45
+    },
+    {
+        "id": 584,
+        "category": "Books",
+        "name": "Bicycle 584",
+        "price": 330.2,
+        "brand": "Samsung",
+        "year": 2023,
+        "description": "High-quality bicycle 584 from Samsung, perfect for everyday use.",
+        "stock": 90
+    },
+    {
+        "id": 585,
+        "category": "Kitchen",
+        "name": "Bicycle 585",
+        "price": 389.51,
+        "brand": "Rolex",
+        "year": 2022,
+        "description": "High-quality bicycle 585 from Rolex, perfect for everyday use.",
+        "stock": 60
+    },
+    {
+        "id": 586,
+        "category": "Fashion",
+        "name": "T-Shirt 586",
+        "price": 3001.21,
+        "brand": "Microsoft",
+        "year": 2025,
+        "description": "High-quality t-shirt 586 from Microsoft, perfect for everyday use.",
+        "stock": 5
+    },
+    {
+        "id": 587,
+        "category": "Shoes",
+        "name": "Laptop 587",
+        "price": 3460.91,
+        "brand": "Zara",
+        "year": 2023,
+        "description": "High-quality laptop 587 from Zara, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 588,
+        "category": "Clothing",
+        "name": "Bicycle 588",
+        "price": 1269.42,
+        "brand": "Microsoft",
+        "year": 2018,
+        "description": "High-quality bicycle 588 from Microsoft, perfect for everyday use.",
+        "stock": 15
+    },
+    {
+        "id": 589,
+        "category": "Sports",
+        "name": "Charger 589",
+        "price": 3294.49,
+        "brand": "LG",
+        "year": 2020,
+        "description": "High-quality charger 589 from LG, perfect for everyday use.",
+        "stock": 19
+    },
+    {
+        "id": 590,
+        "category": "Shoes",
+        "name": "Sofa 590",
+        "price": 4147.32,
+        "brand": "Nike",
+        "year": 2018,
+        "description": "High-quality sofa 590 from Nike, perfect for everyday use.",
+        "stock": 46
+    },
+    {
+        "id": 591,
+        "category": "Lighting",
+        "name": "Charger 591",
+        "price": 207.87,
+        "brand": "HP",
+        "year": 2021,
+        "description": "High-quality charger 591 from HP, perfect for everyday use.",
+        "stock": 21
+    },
+    {
+        "id": 592,
+        "category": "Shoes",
+        "name": "Camera 592",
+        "price": 1999.46,
+        "brand": "Philips",
+        "year": 2020,
+        "description": "High-quality camera 592 from Philips, perfect for everyday use.",
+        "stock": 94
+    },
+    {
+        "id": 593,
+        "category": "Groceries",
+        "name": "Book 593",
+        "price": 2392.11,
+        "brand": "Nikon",
+        "year": 2022,
+        "description": "High-quality book 593 from Nikon, perfect for everyday use.",
+        "stock": 17
+    },
+    {
+        "id": 594,
+        "category": "Fashion",
+        "name": "Sunglasses 594",
+        "price": 3327.38,
+        "brand": "Samsung",
+        "year": 2024,
+        "description": "High-quality sunglasses 594 from Samsung, perfect for everyday use.",
+        "stock": 93
+    },
+    {
+        "id": 595,
+        "category": "Tools",
+        "name": "Jeans 595",
+        "price": 387.94,
+        "brand": "Nike",
+        "year": 2022,
+        "description": "High-quality jeans 595 from Nike, perfect for everyday use.",
+        "stock": 86
+    },
+    {
+        "id": 596,
+        "category": "Pets",
+        "name": "Book 596",
+        "price": 4145.49,
+        "brand": "Canon",
+        "year": 2023,
+        "description": "High-quality book 596 from Canon, perfect for everyday use.",
+        "stock": 53
+    },
+    {
+        "id": 597,
+        "category": "Groceries",
+        "name": "Charger 597",
+        "price": 2973.33,
+        "brand": "Nikon",
+        "year": 2018,
+        "description": "High-quality charger 597 from Nikon, perfect for everyday use.",
+        "stock": 50
+    },
+    {
+        "id": 598,
+        "category": "Groceries",
+        "name": "Camera 598",
+        "price": 4439.35,
+        "brand": "LG",
+        "year": 2020,
+        "description": "High-quality camera 598 from LG, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 599,
+        "category": "Toys",
+        "name": "Keyboard 599",
+        "price": 104.47,
+        "brand": "Puma",
+        "year": 2018,
+        "description": "High-quality keyboard 599 from Puma, perfect for everyday use.",
+        "stock": 18
+    },
+    {
+        "id": 600,
+        "category": "Baby",
+        "name": "Gaming Console 600",
+        "price": 961.34,
+        "brand": "Puma",
+        "year": 2024,
+        "description": "High-quality gaming console 600 from Puma, perfect for everyday use.",
+        "stock": 15
+    }
 ]
