@@ -1,11 +1,27 @@
 from tkinter import *
+from tkinter import messagebox
 from PIL import Image, ImageTk
 import json, os
+import login
+
+# --- Utility: Load and Save products ---
+def load_all_products():
+    if os.path.exists("products.json"):
+        with open("products.json", "r") as f:
+            try:
+                return json.load(f)
+            except:
+                return []
+    return []
+
+def save_all_products(products):
+    with open("products.json", "w") as f:
+        json.dump(products, f, indent=4)
 
 # --- Load products by category ---
 def load_products(category):
     with open("products.json", "r") as f:
-        data = json.load(f)  # this is a list
+        data = json.load(f)
         return [item for item in data if item["category"] == category]
 
 # --- Binary Search with Partial Match ---
@@ -36,7 +52,7 @@ def binary_search_partial(products, query):
 
     return results
 
-# --- Sorting Functions (Quicksort) ---
+# --- Sorting Functions ---
 def quicksort_asc(products, key):
     if len(products) <= 1:
         return products
@@ -53,7 +69,7 @@ def quicksort_desc(products, key):
     less = [x for x in products[1:] if x[key] < pivot[key]]
     return quicksort_desc(greater, key) + [pivot] + quicksort_desc(less, key)
 
-# --- Add to cart function ---
+# --- Add to cart ---
 def add_to_cart(product):
     print("Added to cart:", product["name"])
 
@@ -63,17 +79,14 @@ def products_page(category):
     root.geometry("1000x672")
     root.title(f"{category} Products")
 
-    # Background
     bg = ImageTk.PhotoImage(Image.open("cat.png").resize((1320, 672)))
     bg_label = Label(root, image=bg)
     bg_label.image = bg
     bg_label.place(x=0, y=0)
 
-    # Title
     title = Label(root, text=f"{category} Products", font=("Arial", 22, "bold"), bg="white")
     title.pack(pady=10)
 
-    # Search + Sorting frame
     top_frame = Frame(root, bg="white")
     top_frame.pack(pady=10)
 
@@ -83,7 +96,6 @@ def products_page(category):
     Button(top_frame, text="Search", font=("Arial", 12), bg="#4CAF50", fg="white",
            command=lambda: do_search()).pack(side=LEFT, padx=5)
 
-    # --- Sorting Buttons ---
     sort_frame = Frame(root, bg="white")
     sort_frame.pack(pady=5)
 
@@ -92,7 +104,6 @@ def products_page(category):
     Button(sort_frame, text="Sort Price ↑", command=lambda: do_sort("price", True)).pack(side=LEFT, padx=5)
     Button(sort_frame, text="Sort Price ↓", command=lambda: do_sort("price", False)).pack(side=LEFT, padx=5)
 
-    # --- Scrollable Canvas ---
     canvas = Canvas(root, bg="white", highlightthickness=0)
     canvas.pack(side=LEFT, fill=BOTH, expand=True, padx=20, pady=10)
 
@@ -107,7 +118,6 @@ def products_page(category):
     product_frame.bind("<Configure>", update_scroll)
     canvas.configure(yscrollcommand=scrollbar.set)
 
-    # --- Function to display products ---
     def display_products(prod_list):
         for widget in product_frame.winfo_children():
             widget.destroy()
@@ -129,7 +139,6 @@ def products_page(category):
                 col = 0
                 row += 1
 
-    # --- Search logic ---
     def do_search():
         query = search_entry.get().strip()
         if query:
@@ -138,7 +147,6 @@ def products_page(category):
         else:
             display_products(products)
 
-    # --- Sorting logic ---
     def do_sort(key, ascending=True):
         nonlocal products
         if ascending:
@@ -147,9 +155,165 @@ def products_page(category):
             products = quicksort_desc(products, key)
         display_products(products)
 
-    # Load products initially
     products = load_products(category)
     display_products(products)
+
+    root.mainloop()
+
+# ---------------- ADMIN FUNCTIONS ----------------
+def add_product_form(parent):
+    form = Toplevel(parent)
+    form.title("Add Product")
+    form.geometry("400x300")
+
+    Label(form, text="Name:").pack(pady=5)
+    name_entry = Entry(form, width=30)
+    name_entry.pack()
+
+    Label(form, text="Category:").pack(pady=5)
+    cat_entry = Entry(form, width=30)
+    cat_entry.pack()
+
+    Label(form, text="Price:").pack(pady=5)
+    price_entry = Entry(form, width=30)
+    price_entry.pack()
+
+    Label(form, text="Stock:").pack(pady=5)
+    stock_entry = Entry(form, width=30)
+    stock_entry.pack()
+
+    def save_product():
+        name = name_entry.get().strip()
+        cat = cat_entry.get().strip()
+        try:
+            price = float(price_entry.get())
+            stock = int(stock_entry.get())
+        except:
+            messagebox.showerror("Error", "Invalid price or stock!")
+            return
+
+        if not name or not cat:
+            messagebox.showerror("Error", "Name and Category required!")
+            return
+
+        products = load_all_products()
+        products.append({"name": name, "category": cat, "price": price, "stock": stock})
+        save_all_products(products)
+        messagebox.showinfo("Success", "Product added successfully!")
+        form.destroy()
+
+    Button(form, text="Save", bg="#4CAF50", fg="white", command=save_product).pack(pady=15)
+
+def update_product_form(parent):
+    form = Toplevel(parent)
+    form.title("Update Product")
+    form.geometry("400x300")
+
+    Label(form, text="Enter Product Name:").pack(pady=5)
+    search_entry = Entry(form, width=30)
+    search_entry.pack()
+
+    def search_product():
+        name = search_entry.get().strip().lower()
+        products = load_all_products()
+        for p in products:
+            if p["name"].lower() == name:
+                show_update_fields(p, products, form)
+                return
+        messagebox.showerror("Error", "Product not found!")
+
+    Button(form, text="Search", bg="#2196F3", fg="white", command=search_product).pack(pady=10)
+
+def show_update_fields(product, products, form):
+    Label(form, text=f"Updating {product['name']}", font=("Arial", 12, "bold")).pack(pady=5)
+
+    Label(form, text="New Price:").pack(pady=5)
+    price_entry = Entry(form, width=30)
+    price_entry.insert(0, str(product["price"]))
+    price_entry.pack()
+
+    Label(form, text="New Stock:").pack(pady=5)
+    stock_entry = Entry(form, width=30)
+    stock_entry.insert(0, str(product["stock"]))
+    stock_entry.pack()
+
+    def save_update():
+        try:
+            product["price"] = float(price_entry.get())
+            product["stock"] = int(stock_entry.get())
+        except:
+            messagebox.showerror("Error", "Invalid price or stock!")
+            return
+
+        save_all_products(products)
+        messagebox.showinfo("Success", "Product updated!")
+        form.destroy()
+
+    Button(form, text="Save Update", bg="#4CAF50", fg="white", command=save_update).pack(pady=10)
+
+def discount_form(parent):
+    form = Toplevel(parent)
+    form.title("Apply Discount")
+    form.geometry("400x250")
+
+    Label(form, text="Category:").pack(pady=5)
+    cat_entry = Entry(form, width=30)
+    cat_entry.pack()
+
+    Label(form, text="Discount %:").pack(pady=5)
+    discount_entry = Entry(form, width=30)
+    discount_entry.pack()
+
+    def apply_discount():
+        try:
+            discount = float(discount_entry.get())
+        except:
+            messagebox.showerror("Error", "Invalid discount value!")
+            return
+
+        cat = cat_entry.get().strip().lower()
+        products = load_all_products()
+        updated = False
+
+        for p in products:
+            if p["category"].lower() == cat:
+                p["price"] = round(p["price"] * (1 - discount / 100), 2)
+                updated = True
+
+        if updated:
+            save_all_products(products)
+            messagebox.showinfo("Success", f"Discount applied to {cat}!")
+            form.destroy()
+        else:
+            messagebox.showerror("Error", "Category not found!")
+
+    Button(form, text="Apply", bg="#FF9800", fg="white", command=apply_discount).pack(pady=15)
+
+# --- Admin Dashboard ---
+def admin_dashboard():
+    root = Tk()
+    root.geometry("1320x672")
+    root.resizable(0, 0)
+    root.title("Admin Dashboard")
+
+    bgImage = ImageTk.PhotoImage(Image.open("cat.png").resize((1320, 672)))
+    bgLabel = Label(root, image=bgImage)
+    bgLabel.image = bgImage
+    bgLabel.place(x=0, y=0)
+
+    Label(root, text="Admin Dashboard", font=("Arial", 26, "bold"), bg="white").pack(pady=20)
+
+    Button(root, text="Manage Categories", font=("Arial", 16), bg="#4CAF50", fg="white", width=20,
+           command=categories_page).pack(pady=10)
+
+    Button(root, text="Add Product", font=("Arial", 16), bg="#2196F3", fg="white", width=20,
+           command=lambda: add_product_form(root)).pack(pady=10)
+
+    Button(root, text="Update Product", font=("Arial", 16), bg="#FF9800", fg="white", width=20,
+           command=lambda: update_product_form(root)).pack(pady=10)
+
+    Button(root, text="Apply Discounts", font=("Arial", 16), bg="#9C27B0", fg="white", width=20,
+           command=lambda: discount_form(root)).pack(pady=10)
 
     root.mainloop()
 
@@ -177,7 +341,6 @@ def categories_page():
     bgLabel.place(x=0, y=0)
 
     categories = load_categories()
-
     positions = [(30,30), (1050,30), (30,500), (1050,500)]
 
     for i, cat in enumerate(categories[:4]):
@@ -197,5 +360,10 @@ def categories_page():
 
     root.mainloop()
 
+# --- MAIN PROGRAM ---
 if __name__ == "__main__":
-    categories_page()
+    user_type = login.login_page()
+    if user_type == "admin":
+        admin_dashboard()
+    elif user_type == "user":
+        categories_page()
